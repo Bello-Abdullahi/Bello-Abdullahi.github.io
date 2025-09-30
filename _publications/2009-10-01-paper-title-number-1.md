@@ -1,5 +1,5 @@
 ---
-title: "Revisiting Foreign Direct Investment – Economic Growth Nexus in Nigeria: An ARDL Approach. [doi](https://doi.org/10.1002/for.2620)"
+title: "Revisiting Foreign Direct Investment – Economic Growth Nexus in Nigeria: An ARDL Approach. 
 collection: publications
 year: '2022' 
 excerpt: ''
