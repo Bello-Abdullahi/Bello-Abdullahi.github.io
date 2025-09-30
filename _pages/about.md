@@ -15,19 +15,22 @@ Currently, I serve as a Research Assistant (Economist) at the [Centre for the St
 
 I obtained my BSc in Economics and Development Studies with First Class from [Federal University of Kashere](https://fukashere.edu.ng/), and MSc Applied Economics with Distinction from [University of Strathclyde](https://www.strath.ac.uk/business/economics/)
 
-## 🎓 Education
+## Education
 
-- **PhD in Economics**, Lancaster University *(2023 – Present)*  
-  Research focus: Macroeconomics, Monetary and Development Economics  
-  TA: Undergraduate Macroeconomics, Econometrics  
-  PhD Studentship Award (2023–2026)
-
-- **MSc Applied Economics**, University of Strathclyde *(2019 – 2021)*  
+- **MSc Applied Economics**
+  University of Strathclyde  
   Graduated with Distinction  
-  Courses: Econometrics, Development Economics, Policy Evaluation
+  **Relevant Modules:** Fundamental of Microeconomics, Fundamental of Macroeconomics, Analysis of Economic Data, Economic Appraisal and Modelling, Topics in Public Economics and International Macroeconomics
 
-- **BSc Economics and Development Studies**, Federal University of Kashere *(2014 – 2018)*  
-  First Class Honours  
-  Best Graduating Student, Department of Economics
+- **BSc Economics and Development Studies**
+  Federal University of Kashere 
+  First Class Honours
+  **Relevant Modules:** Advanced Macroeconomics Advanced Microeconomics, International Economics, Applied Statistics, Applied Econometrics, and Advanced Mathematical Economics.
+  **Awards:** Best Graduating Student in the Department of Economics and Faculty of Humanities and Social Science.
 
 [CV](https://drive.google.com/file/d/1xqM30OVxvSNkSEU50R6p4wK647AevtFk/view?usp=sharing)
+
+<a href="https://drive.google.com/file/d/1xqM30OVxvSNkSEU50R6p4wK647AevtFk/view?usp=sharing" class="btn btn--primary" target="_blank">
+  <i class="fas fa-download"></i> Download CV
+</a>
+
