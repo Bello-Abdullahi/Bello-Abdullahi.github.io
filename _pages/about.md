@@ -15,4 +15,6 @@ Currently, I serve as a Research Assistant (Economist) at the [Centre for the St
 
 I obtained my BSc in Economics and Development Studies with First Class from [Federal University of Kashere](https://fukashere.edu.ng/), and MSc Applied Economics with Distinction from [University of Strathclyde](https://www.strath.ac.uk/business/economics/)
 
+[CV](https://drive.google.com/file/d/1xqM30OVxvSNkSEU50R6p4wK647AevtFk/view?usp=sharing)
+
 ======
