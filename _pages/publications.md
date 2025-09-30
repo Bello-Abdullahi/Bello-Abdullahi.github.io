@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-PRE DOC
+PRE DOC  
 Publications in refereed journals
 ======
 
