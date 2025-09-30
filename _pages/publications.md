@@ -7,8 +7,7 @@ author_profile: true
 
 {% include base_path %}  
 
-PRE DOC  
-Publications in refereed journals
+Pre Doc Publications
 ======
 
 {% for post in site.publications reversed %}
