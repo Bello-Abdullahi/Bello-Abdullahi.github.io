@@ -3,8 +3,8 @@ main:
   - title: "Working papers"
     url: /wps/
 
-  - title: "Publications"
-    url: /publication/    
+  - title: "Research Publications"
+    url: "https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en"
     
   - title: "CV"
     url: /cv/
