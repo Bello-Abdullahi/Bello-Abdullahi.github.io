@@ -1,0 +1,25 @@
+education:
+  - area: PhD Economics
+    institution: Lancaster University
+    date_start: 2023-10-01
+    date_end: "Present"
+    summary: |
+      - Research focus: TBDL
+      - Teaching Assistant: TBDL
+      - ESRC CASE PhD Studentship Award (2024–2029)
+
+  - area: MSc Applied Economics
+    institution: University of Strathclyde
+    date_start: 2024-09-15
+    date_end: 2025-09-15
+    summary: |
+      - Graduated with Distinction
+      - Coursework: Econometrics, Policy Evaluation, Development Economics
+
+  - area: BSc Economics and Development Studies
+    institution: Federal University of Kashere
+    date_start: 2017-09-01
+    date_end: 2022-02-04
+    summary: |
+      - Graduated First Class
+      - Best Graduating Student, Department of Economics
