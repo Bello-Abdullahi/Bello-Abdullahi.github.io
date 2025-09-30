@@ -8,3 +8,5 @@ main:
     url: /policybriefs/
   - title: "Blog"
     url: "https://medium.com/@belloabdullahimuhammad1"
+  - tiltle: "Others"
+    url: /Others/
