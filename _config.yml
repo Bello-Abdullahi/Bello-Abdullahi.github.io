@@ -122,6 +122,13 @@ atom_feed:
 
 
 # SEO Related
+marketing:
+seo:
+  site_type: Person
+  local_business_type: ''
+  org_name: ''
+  description: "Bello Muhammad Abdullahi personal website"
+
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
@@ -147,7 +154,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "custom" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
