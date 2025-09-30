@@ -21,7 +21,7 @@ Graduated with Distinction
 
 **BSc Economics and Development Studies**  
 [Federal University of Kashere](https://fukashere.edu.ng/)  
-First Class Honours  
+Graduated with First Class Honours  
 **Awards**: Best Graduating Student in the Department of Economics and Faculty of Humanities and Social Science.
 
 <a href="https://drive.google.com/file/d/1xqM30OVxvSNkSEU50R6p4wK647AevtFk/view?usp=sharing" class="btn btn--primary" target="_blank">
