@@ -22,7 +22,7 @@ author:
   avatar           : "Passport.jpg"
   name             : "PhD Economics Student"
   pronouns         : # example: "she/her"  
-  bio              : "Lancaster University"
+  bio              : "    Lancaster University"
   location         : # "Earth"
   employer         : #"Centre for the Study of the Economies of Africa"
   uri              : # URL
