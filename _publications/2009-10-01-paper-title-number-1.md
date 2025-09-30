@@ -1,14 +1,10 @@
 ---
-title: "Paper Title Number 1"
+title: "Revisiting Foreign Direct Investment - Economic Growth Nexus in Nigeria: An ARDL Approach" with Shehu Elrasheed
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2022-10-01
+venue: "Journal of Economics and Allied Research"
+paperurl: "https://www.researchgate.net/publication/374743165_REVISITING_FOREIGN_DIRECT_INVESTMENT_-ECONOMIC_GROWTH_NEXUS_IN_NIGERIA_AN_ARDL_APPROACH"
+bibtexurl: "http://academicpages.github.io/files/bibtex1.bib"
+abstract: "In this study we examined the relationship between foreign direct investment (FDI) and economic growth in Nigeria. Utilizing the auto-regressive distributed lag (ARDL) model, the existence of long-run relationship between the independent and dependent variables was found. Additionally, we conducted the granger causality test to determine the direction of causality. The ARDL bounds testing result shows that labor has a long-term negative impact on economic growth, with foreign direct investment, exchange rates, and capital having a positive influence. The pair-wise Granger-causality results showed the existence of a bidirectional relationship between FDI and economic growth. Based on our findings, we suggested that the Federal government should pursue a strategy to attract FDI by enhancing Nigeria's business climate, environment, and infrastructure and achieving stable exchange rate to increase investors' confidence. Additionally, we recommended the enhancement of educational policies in the country to improve the human capital and skilled workforce."
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
