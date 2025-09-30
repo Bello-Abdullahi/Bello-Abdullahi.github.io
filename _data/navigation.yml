@@ -2,12 +2,9 @@
 main:
   - title: "Working papers"
     url: /wps/
-
-  - title: "Research Publications"
-    url: "https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en"
-    
-  - title: "CV"
-    url: /cv/
-  
-  - blog: "Blog"
+  - title: "Publication"
+    url: /publications/
+  - title: "Policy Briefs"
+    url: /policybriefs/
+  - title: "Blog"
     url: "https://medium.com/@belloabdullahimuhammad1"
