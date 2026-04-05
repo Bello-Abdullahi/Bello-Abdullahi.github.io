@@ -8,7 +8,7 @@ I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_b
 ----
 Edit from here
 
-### <a href="https://lukas-hack.github.io/HackCV.pdf" target="_blank">Curriculum Vitae</a>
+### <a href="https://belloabdullahi.github.io/BelloCV.pdf" target="_blank">Curriculum Vitae</a>
 
 ----
 
