@@ -1,7 +1,7 @@
 {::options parse_block_html="true" /}
 
 
-### Welcome!
+### Welcome to my page!
 
 I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_blank">Lancaster University</a>. I am being supervised by <a href="https://sites.google.com/view/lorenza-rossi/home-page" target="_blank"> Prof. Lorenza Rossi</a> and  <a href="https://sites.google.com/view/stefano-fasani" target="_blank"> Dr. Stefano Fasani</a> . I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the <a href="https://www.cseaafrica.org/" target="_blank"> Centre for the Study of the Economies of Africa (CSEA)</a> , where I contribute to impactful studies and projects that inform development policies across Africa. 
 
