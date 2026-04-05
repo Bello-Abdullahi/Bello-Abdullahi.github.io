@@ -3,36 +3,30 @@
 
 ### Welcome!
 
-I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_blank">Lancaster University</a>. I am being supervised by Prof. Lorenza Rossi and Dr. Stefano Fasani. I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the <a href="https://www.cseaafrica.org/" target="_blank"> Centre for the Study of the Economies of Africa (CSEA)</a> , where I contribute to impactful studies and projects that inform development policies across Africa. 
-
-----
-Edit from here
-
-### <a href="https://belloabdullahi.github.io/BelloCV.pdf" target="_blank">Curriculum Vitae</a>
+I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_blank">Lancaster University</a>. I am being supervised by <a href="https://sites.google.com/view/lorenza-rossi/home-page" target="_blank"> Prof. Lorenza Rossi</a> and  <a href="https://sites.google.com/view/stefano-fasani" target="_blank"> Dr. Stefano Fasani</a> . I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the <a href="https://www.cseaafrica.org/" target="_blank"> Centre for the Study of the Economies of Africa (CSEA)</a> , where I contribute to impactful studies and projects that inform development policies across Africa. 
 
 ----
 
-### News and Upcoming Talks
 
-<details><summary markdown="span"><font size=2>I updated my paper  <a href="https://lukas-hack.github.io/files/sysmp/HIM_SysMP.pdf" target="_blank">Identification of Systematic Monetary Policy</a>
-</font></summary></details>
+### <a href="https://Bello-Abdullahi.github.io/BelloCV.pdf" target="_blank">Curriculum Vitae</a>
 
-<details><summary markdown="span"><font size=2> New <a href="https://www.zew.de/publikationen/der-irankrieg-und-die-wirtschaftlichen-konsequenzen-fuer-deutschland" target="_blank">ZEW Policy Brief</a> on the consequences of the Iran War for the German economy  </font></summary></details>
+----
 
+### News
 
-<details><summary markdown="span"><font size=2> Upcoming presentations: Innsbruck Macro Workshop (March), Heidelberg U (May), Alicante U & Swiss National Bank & NBER ISOM (June), SED (July)
-</font></summary></details>
+<details><summary markdown="span"><font size=2> October 2025: I was awarded the NWSSDTP ESRC-CASE Studentship at Lancaster University </font></summary></details>
 
-<!--
-<details><summary markdown="span"><font size=2> I received the <a href="https://www.socialpolitik.de/en/reinhard-selten-award-2024" target="_blank"><u>Reinhard Selten Award 2024</u></a> for my research on: Progressive Income Taxation and Inflation: The Macroeconomic Effects of Bracket Creep</font></summary></details>
--->
+<details><summary markdown="span"><font size=2> September 2025: I completed my Msc in Applied Economics with Distinction from the University of Strathcldye </font></summary></details>
 
+<details><summary markdown="span"><font size=2> December 2024: I presented a paper on "Disaggregating the effects of Minimum Wage Increase on Headline, Core and Food Inflation in Nigeria: A Fully Modified Ordinary Least Square Approach" at 8th International Conference of Economics and Finance, in Turkey </font></summary></details>
+
+<details><summary markdown="span"><font size=2> September 2024: I presented a on “Carbon Emission, Income Inequality, and Economic Growth Nexus in Nigeria: An ARDL Approach” at 8th International Conference of Economics and Finance, in Turkey </font></summary></details>
 
 <a> </a>
 
 ----
 
-
+Edit from here
 
 <!--<font color="gray"><i><small>&diams; Click title to see abstract.</small></i></font> --> 
 ### Working Papers:
