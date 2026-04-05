@@ -7,7 +7,7 @@ I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_b
 
 I am an EDI representative for the <a href="https://nwssdtp.ac.uk/current-students/student-representatives/" target="_blank"> North West Social Science Doctoral Training Partnership</a>. Feel free to reach out if you have any concerns. During my free time, I mentor graduates student from Africa who are interested in graduate opportunities. If you are Africa considering graduate school and are looking for someone to speak to whether you are not sure of your decision or require guidance or someone to review your documents and provide feed back. Shoot me an email <a href="mailtobelloabdullahimuhammmad1@gmail.com" target="_blank"> here </a>.
 
-Under the <a href="https://nesplatform.com" target="_blank">  Northern Elite Scholars platform <a/a> a Northern Nigeria focused mentorship program we have mentored and provided support to mentees in their graduate schools application that has over the years resulted in over  $1,000,000 in funding for scholarships. If you are looking at suppporting our intiative, please reach out too.
+Under the <a href="https://nesplatform.com" target="_blank">  Northern Elite Scholars <a/a> platform  a Northern Nigeria focused mentorship program we have mentored and provided support to mentees in their graduate schools application that has over the years resulted in over  $1,000,000 in funding for scholarships. If you are looking at suppporting our intiative, please reach out too.
 
 ----
 
