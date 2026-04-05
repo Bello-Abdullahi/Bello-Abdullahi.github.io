@@ -14,13 +14,17 @@ I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_b
 
 ### News
 
-<details><summary markdown="span"><font size=2> October 2025: I was awarded the NWSSDTP ESRC-CASE Studentship at Lancaster University </font></summary></details>
+<details><summary markdown="span"><font size=2> October 2025: I started my PhD at Lancaster University </font></summary></details>
 
 <details><summary markdown="span"><font size=2> September 2025: I completed my Msc in Applied Economics with Distinction from the University of Strathcldye </font></summary></details>
 
-<details><summary markdown="span"><font size=2> December 2024: I presented a paper on "Disaggregating the effects of Minimum Wage Increase on Headline, Core and Food Inflation in Nigeria: A Fully Modified Ordinary Least Square Approach" at 8th International Conference of Economics and Finance, in Turkey </font></summary></details>
+<details><summary markdown="span"><font size=2> April 2025: I was awarded an ESRC-CASE Studentship under the North West Social Science Doctoral Training Partnership </font></summary></details>
 
-<details><summary markdown="span"><font size=2> September 2024: I presented a on “Carbon Emission, Income Inequality, and Economic Growth Nexus in Nigeria: An ARDL Approach” at 8th International Conference of Economics and Finance, in Turkey </font></summary></details>
+<details><summary markdown="span"><font size=2> December 2024: I presented a on “Carbon Emission, Income Inequality, and Economic Growth Nexus in Nigeria: An ARDL Approach” at 8th International Conference of Economics and Finance, in Turkey </font></summary></details>
+
+<details><summary markdown="span"><font size=2> September 2024: I was awarded the PTDF Overseas Scholarship and I began my MSc Applied Economics programme at the University of Strathclyde </font></summary></details>
+
+<details><summary markdown="span"><font size=2> September 2024: I presented a paper on "Disaggregating the effects of Minimum Wage Increase on Headline, Core and Food Inflation in Nigeria: A Fully Modified Ordinary Least Square Approach" at the 65th Annual Conference of the Nigerian Economic Society, in Abuja. </font></summary></details>
 
 <a> </a>
 
