@@ -3,7 +3,7 @@
 
 ### Welcome!
 
-I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_blank">Lancaster University</a>. I am being supervised by Prof. Lorenza Rossi and Dr. Stefano Fasani. I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the <a href="https://www.cseaafrica.org/" target="_blank"> Centre for the Study of the Economies of Africa (CSEA)</a> Centre for the Study of the Economies of Africa (CSEA), where I contribute to impactful studies and projects that inform development policies across Africa. 
+I am a PhD Economics Student at <a href="https://www.lancaster.ac.uk" target="_blank">Lancaster University</a>. I am being supervised by Prof. Lorenza Rossi and Dr. Stefano Fasani. I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the <a href="https://www.cseaafrica.org/" target="_blank"> Centre for the Study of the Economies of Africa (CSEA)</a> , where I contribute to impactful studies and projects that inform development policies across Africa. 
 
 ----
 Edit from here
