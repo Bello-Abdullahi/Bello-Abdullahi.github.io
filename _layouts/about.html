@@ -14,20 +14,34 @@ layout: default
              alt="profile-photo">
       {% endif %}
 
-      <div class="profile-info" style="margin-top: 20px; font-size: 0.9rem;">
-        {% if page.profile.address %}<p>{{ page.profile.address }}</p>{% endif %}
+      <div class="profile-info" style="margin-top: 20px; font-size: 0.95rem; line-height: 1.6;">
+        
         <p>
-          {% if page.profile.email %}<strong>Email:</strong> <a href="mailto:{{ page.profile.email }}">Contact</a><br>{% endif %}
-          {% if page.profile.scholar %}<a href="{{ page.profile.scholar }}">Google Scholar</a><br>{% endif %}
-          {% if page.profile.twitter %}<a href="https://twitter.com/{{ page.profile.twitter }}">Twitter/X</a><br>{% endif %}
-          {% if page.profile.orcid %}<a href="https://orcid.org/{{ page.profile.orcid }}">ORCID</a>{% endif %}
+          <strong>Email:</strong><br>
+          <a href="mailto:{{ page.profile.email }}">b.abdullahi [at] lancaster.ac.uk</a>
         </p>
+
+        <p>
+          <strong>Links:</strong><br>
+          <a href="{{ page.profile.scholar }}" target="_blank">Google Scholar</a><br>
+          <a href="https://www.linkedin.com/in/{{ page.profile.linkedin }}" target="_blank">LinkedIn</a><br>
+          <a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank">Twitter</a><br>
+          <a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank">ORCID</a>
+        </p>
+
+        <p>
+          <strong>Mailing address:</strong><br>
+          Lancaster University Management School<br>
+          Bailrigg, Lancaster<br>
+          LA1 4YX, United Kingdom
+        </p>
+
       </div>
     </div>
     {% endif %}
 
     <div class="bio-text" style="display: block; overflow: hidden;">
-       <h2 style="margin-top: 0;">Welcome!</h2> {{ content }}
+       <h2 style="margin-top: 0;">Welcome to my page!</h2> {{ content }}
     </div>
 
   </div>
