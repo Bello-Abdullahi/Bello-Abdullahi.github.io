@@ -6,7 +6,7 @@ nav: true
 nav_order: 1
 
 profile:
-  align: right
+  align: centre
   image: Passport.png
   image_circular: true
 
