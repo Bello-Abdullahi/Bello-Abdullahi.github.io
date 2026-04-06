@@ -161,11 +161,15 @@ a:focus {
 .profile {
   margin-left: 2rem;
   margin-bottom: 1rem;
+  max-width: 250px;
 }
 
 .profile img {
   border: 2px solid var(--border);
   box-shadow: var(--shadow);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .site-footer {
