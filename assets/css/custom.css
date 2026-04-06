@@ -1,68 +1,60 @@
+/* --- 1. VARIABLES & THEMES --- */
 :root {
-  --bg: #f8fafc;
-  --surface: #ffffff;
-  --text: #172033;
-  --muted: #5a657a;
-  --border: #dbe3ef;
-  --primary: #1f4e8c;
-  --primary-hover: #173c6c;
-  --shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
+  --bg: #ffffff;          /* Pure white background for that clean academic look */
+  --surface: transparent; /* No more white boxes */
+  --text: #111827;
+  --muted: #4b5563;
+  --border: #e5e7eb;
+  --primary: #1d4ed8;     /* Professional blue for links */
+  --primary-hover: #1e40af;
+  --shadow: none;         /* Removed shadows globally */
 }
 
 :root[data-theme='dark'] {
-  --bg: #0d1321;
-  --surface: #121a2c;
-  --text: #e7ecf5;
-  --muted: #9ca8be;
-  --border: #26314a;
-  --primary: #87b4ff;
-  --primary-hover: #a3c5ff;
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --bg: #0f172a;
+  --surface: transparent;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --border: #1e293b;
+  --primary: #60a5fa;
+  --primary-hover: #93c5fd;
 }
 
-*,
-*::before,
-*::after {
+/* --- 2. BASE RESET --- */
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: var(--bg);
+  background-color: var(--bg);
   color: var(--text);
-  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.75;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
   font-size: 18px;
-  transition: background-color 0.25s ease, color 0.25s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-a {
-  color: var(--primary);
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: var(--primary-hover);
-  text-decoration: underline;
-}
-
+/* --- 3. LAYOUT --- */
 .wrapper {
-  width: min(1100px, 92%);
+  width: min(1000px, 92%);
   margin: 0 auto;
 }
 
+.page-content {
+  padding: 3rem 0;
+}
+
+/* --- 4. HEADER & NAVIGATION --- */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: color-mix(in srgb, var(--surface) 88%, transparent);
-  backdrop-filter: blur(10px);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -70,148 +62,110 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 0.85rem 0;
+  padding: 1rem 0;
 }
 
 .site-title {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  letter-spacing: 0.01em;
   color: var(--text);
+  text-decoration: none;
 }
 
-.header-actions {
+.trigger {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.site-nav .nav-trigger {
-  display: none;
-}
-
-.site-nav label {
-  display: none;
-}
-
-.site-nav .trigger {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
+  gap: 1.25rem;
 }
 
 .page-link {
   color: var(--muted);
   font-size: 0.95rem;
-  font-weight: 600;
-  padding: 0.35rem 0.55rem;
-  border-radius: 8px;
-}
-
-.page-link:hover,
-.page-link.is-active {
-  color: var(--text);
-  background: color-mix(in srgb, var(--primary) 14%, transparent);
+  font-weight: 500;
   text-decoration: none;
+  transition: color 0.2s;
 }
 
-.theme-toggle {
-  border: 1px solid var(--border);
-  background: var(--surface);
+.page-link:hover, .page-link.is-active {
   color: var(--text);
-  border-radius: 999px;
-  min-width: 42px;
-  height: 42px;
-  cursor: pointer;
-  font-size: 1rem;
-  box-shadow: var(--shadow);
+  text-decoration: underline; /* Classic academic style */
 }
 
-.page-content {
-  padding: 2.5rem 0 3rem;
-}
-
-.post {
-  background: transparent; /* Removes the white background */
-  border: none;            /* Removes the border line */
-  border-radius: 0;        /* Removes rounded corners */
-  box-shadow: none;        /* Removes the shadow/edges */
-  padding: 0;              /* Removes the extra space inside the box */
+/* --- 5. CONTENT AREA (THE FLAT LOOK) --- */
+.post, .page {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important; /* Removes the "boxed-in" padding */
+  margin: 0 auto;
 }
 
 .post-title {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
-  font-size: clamp(1.7rem, 3.4vw, 2.55rem);
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.025em;
 }
 
-.post p {
-  margin: 0 0 1.15rem;
+p {
+  margin-bottom: 1.25rem;
 }
 
-.post .desc,
-.post-description {
-  color: var(--muted);
+a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
+a:hover {
+  color: var(--primary-hover);
+}
+
+/* --- 6. PROFILE & SIDEBAR --- */
 .profile {
+  float: right;
   margin-left: 2rem;
-  margin-bottom: 1rem;
-  max-width: 250px;
+  margin-bottom: 1.5rem;
+  max-width: 280px;
 }
 
 .profile img {
-  border: 2px solid var(--border);
-  box-shadow: var(--shadow);
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  border-radius: 4px; /* Slight rounding but no thick borders */
+  filter: grayscale(10%) contrast(105%);
 }
 
+/* --- 7. FOOTER --- */
 .site-footer {
   border-top: 1px solid var(--border);
-  margin-top: 2.5rem;
-  padding: 1.15rem 0 1.5rem;
+  margin-top: 4rem;
+  padding: 2rem 0;
 }
 
 .footer-note {
-  margin: 0;
   text-align: center;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
-@media (max-width: 860px) {
+/* --- 8. THEME TOGGLE --- */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* --- 9. MOBILE RESPONSIVENESS --- */
+@media (max-width: 800px) {
   .profile {
-    float: none !important;
-    margin: 0 auto 1rem;
-    max-width: 240px;
+    float: none;
+    margin: 0 auto 2rem;
+    max-width: 100%;
   }
-
-  .header-inner {
-    flex-wrap: wrap;
-  }
-
-  .site-nav label {
-    display: inline-flex;
-    align-items: center;
-    cursor: pointer;
-    color: var(--text);
-  }
-
-  .site-nav .trigger {
-    display: none;
-    width: 100%;
-    padding-top: 0.5rem;
-  }
-
-  .site-nav .nav-trigger:checked ~ .trigger {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  
+  .post-title {
+    font-size: 1.85rem;
   }
 }
