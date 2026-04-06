@@ -6,14 +6,23 @@ nav: true
 nav_order: 1
 
 profile:
-  align: centre
+  align: right
   image: Passport.png
   image_circular: true
+  email: b.abdullahi@lancaster.ac.uk
+  scholar: https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en
+  twitter: Muhammad_Bell0
+  orcid: 0000-0001-5075-1812
+  address: >
+    PhD Economics Student <br>
+    Lancaster University <br>
+    United Kingdom
 
 news: false
 latest_posts: false
 selected_papers: false
 social: false
+
 ---
 
 I am a PhD Economics Student at [Lancaster University](https://www.lancaster.ac.uk) under the supervison of [Prof. Lorenza Rossi](https://sites.google.com/view/lorenza-rossi/home-page) and [Dr. Stefano Fasani](https://sites.google.com/view/stefano-fasani). I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the [Centre for the Study of the Economies of Africa (CSEA)](https://www.cseaafrica.org/), where I contributed to policy-oriented development research in Africa.
