@@ -1,54 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C748YGZD2Y"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-C748YGZD2Y');
-    </script>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>{{ page.title | default: "Bello Muhammad Abdullahi - Economist" }}</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Welcome! This website provides a CV and research papers of Bello Muhammad Abdullahi, Economist and PhD Student at Lancaster University."/>
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    
-    <style>
-      .profile { margin-bottom: 20px; }
-      .float-right { float: right; margin-left: 20px; }
-      .float-left { float: left; margin-right: 20px; }
-      .img-fluid { max-width: 100%; height: auto; }
-      .rounded-circle { border-radius: 50%; }
-      .clearfix::after { content: ""; clear: both; display: table; }
-      nav a { text-decoration: none; color: #007bff; }
-      nav a:hover { text-decoration: underline; }
-    </style>
-  </head>
-  
-  <body>
-    <div class="wrapper" style="max-width: 800px; margin: 0 auto; padding: 20px;">
-      
-      <section>
-        <nav style="text-align: center; margin-bottom: 40px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-weight: bold; font-size: 1.1em;">
-          <a href="{{ "/" | relative_url }}">About</a> &nbsp;|&nbsp; 
-          <a href="{{ "/cv.html" | relative_url }}">CV</a> &nbsp;|&nbsp; 
-          <a href="{{ "/research.html" | relative_url }}">Research</a> &nbsp;|&nbsp; 
-          <a href="{{ "/teaching.html" | relative_url }}">Teaching</a> &nbsp;|&nbsp; 
-          <a href="{{ "/public-goods.html" | relative_url }}">Public Goods</a>
-        </nav>
-
-        <div class="main-content">
-          {{ content }}
-        </div>
-      </section>
-      
-      <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.8em; color: #777; text-align: center;">
-        &copy; {{ "now" | date: "%Y" }} Bello Muhammad Abdullahi
-      </footer>
-      
-    </div>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ site.github.build_revision }}">
+    <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
+</head>
+<body>
+    {{ content }}
+</body>
 </html>
