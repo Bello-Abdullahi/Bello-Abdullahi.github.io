@@ -28,11 +28,7 @@ social: false
 
 I am a PhD Economics Student at [Lancaster University](https://www.lancaster.ac.uk) under the supervison of [Prof. Lorenza Rossi](https://sites.google.com/view/lorenza-rossi/home-page) and [Dr. Stefano Fasani](https://sites.google.com/view/stefano-fasani). I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the [Centre for the Study of the Economies of Africa (CSEA)](https://www.cseaafrica.org/), where I contributed to policy-oriented development research in Africa.
 
-I also serve as an EDI representative for the [North West Social Science Doctoral Training Partnership](https://nwssdtp.ac.uk/current-students/student-representatives/). Feel free to reach out if you have any concerns. During my free time, I mentor graduate students from Africa who are interested in pursuing graduate opportunities. If you are an African student considering graduate school and would like guidance—whether you're uncertain about your decision or need help reviewing your application materials—please don't hesitate to contact me via email.
+I also serve as an EDI representative for the [North West Social Science Doctoral Training Partnership](https://nwssdtp.ac.uk/current-students/student-representatives/). Feel free to reach out if you have any concerns. In my free time, I mentor graduate students from Africa who are interested in pursuing higher education opportunities. If you are an African student considering graduate school and need guidance—whether you're uncertain about your decision or need help reviewing your application materials. Shoot me an email [here](mailto:belloabdullahimuhammad1@gmail.com).
 
 Through the [Northern Elite Scholars](https://nesplatform.com) platform a Northern Nigeria focused mentorship program we have mentored and provided support to mentees in their graduate schools application that has over the years resulted in over $1,000,000 in funding for scholarships. If you are looking at suppporting our intiative, please feel free to get in touch.
 
-You can reach me at [b.abdullahi@lancaster.ac.uk](mailto:b.abdullahi@lancaster.ac.uk).
-
-
-You can also find me on [Google Scholar](https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0001-5075-1812), and [Twitter/X](https://twitter.com/Muhammad_Bell0).
