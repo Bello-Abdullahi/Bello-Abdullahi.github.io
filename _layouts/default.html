@@ -1,84 +1,53 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C748YGZD2Y"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-C748YGZD2Y');
     </script>
     <meta charset="UTF-8">
-	  <title> Bello Muhammad Abdullahi - Economist - PhD Student</title>
+    <title>{{ page.title | default: "Bello Muhammad Abdullahi - Economist" }}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name="description" content="Welcome! This website provides a CV and research papers of Bello Muhammad Abdullahi, Economist and PhD Student at Lancaster University."/>
-	  <meta name="keywords" content="Bello Muhammad Abdullahi, Bello Abdullahi, Economics, Econ, Macroeconomics, Macro, SVAR, VAR, LP, Firms, Development Economics, Monetary Policy, Africa, Counterfactuals, Fiscal, Fiscal Policy, Monetary, Monetary Policy, Monetary Economics, Policy, Monetary Policy, Public Finance, Taxation, Income Taxation, Carbon Taxation, Climate, Climate Policy, Uni, University, United Kingdom, Lancaster, Lancaster Management School, Nigeria "/>
-	  <meta name="robots" content="index,follow" />
-    
-{% seo %}
+    <meta name="description" content="Welcome! This website provides a CV and research papers of Bello Muhammad Abdullahi, Economist and PhD Student at Lancaster University."/>
+    {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
   </head>
+  
   <body>
     <div class="wrapper">
+      
       <header>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C748YGZD2Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C748YGZD2Y');
-</script>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="{{ "/" | absolute_url }}">Bello Muhammad Abdullahi</a></h1>
+        <img src="{{ site.logo | relative_url }}" alt="Profile Photo" style="width:200px; border-radius:50%; margin-bottom:15px;" />
         
-        <div style="display:inline;float:center">
-        <p>{{ site.description | default: site.github.project_tagline }}
-          </p>
-          
-          
-          <img src="{{site.logo | relative_url}}" alt="Logo"  style="width:230px" />
-          
-
-  	<p>
-  	<br><b>E-mail</b>:
-    	<br>b.abdullahi "at" lancaster.ac.uk
+        <p><strong>PhD Economics Student</strong><br>Lancaster University</p>
         
-        <br>
-        <br><b>Links</b>:
-        <br><a href="https://www.lancaster.ac.uk/lums/our-departments/economics/people/bello-abdullahi" target="_blank">Lancaster Website</a>
-        <br><a href="https://twitter.com/Muhammad_Bell0" target="_blank">Twitter</a>
-        <br><a href="https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en" target="_blank">Google Scholar Page</a>
-		<br><a href="https://orcid.org/0000-0001-5075-1812" target="_blank">ORCID</a>
-  
-	
-  	</p>
-	    
+        <p>
+          <b>E-mail</b>:<br>b.abdullahi [at] lancaster.ac.uk<br><br>
+          <b>Links</b>:<br>
+          <a href="https://www.lancaster.ac.uk/lums/our-departments/economics/people/bello-abdullahi" target="_blank">Lancaster Website</a><br>
+          <a href="https://twitter.com/Muhammad_Bell0" target="_blank">Twitter</a><br>
+          <a href="https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en" target="_blank">Google Scholar</a><br>
+          <a href="https://orcid.org/0000-0001-5075-1812" target="_blank">ORCID</a>
+        </p>
       </header>
+      
       <section>
+        <nav style="margin-bottom: 30px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-weight: bold;">
+          <a href="{{ "/" | relative_url }}">About</a> | 
+          <a href="{{ "/cv.html" | relative_url }}">CV</a> | 
+          <a href="{{ "/research.html" | relative_url }}">Research</a> | 
+          <a href="{{ "/teaching.html" | relative_url }}">Teaching</a> | 
+          <a href="{{ "/public-goods.html" | relative_url }}">Public Goods</a>
+        </nav>
 
-      {{ content }}
-        
+        {{ content }}
       </section>
       
     </div>
-     <!--
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %} -->
   </body>
 </html>
