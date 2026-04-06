@@ -1,6 +1,85 @@
-title: Bello Muhammad Abdullahi
-#edit to include photo TBDL
-logo: /Passport.png
+# ----------------------------------------------------------------------------
+# Site settings
+# ----------------------------------------------------------------------------
 
-theme: jekyll-theme-minimal
-minimal_mistakes_skin: "air"
+title: blank
+first_name: Bello
+middle_name:
+last_name: Abdullahi
+email: b.abdullahi@lancaster.ac.uk
+description: >
+  Personal academic website of Bello Abdullahi.
+
+lang: en
+icon: false
+
+url: https://bello-abdullahi.github.io
+baseurl: ""
+
+# ----------------------------------------------------------------------------
+# Theme
+# ----------------------------------------------------------------------------
+
+remote_theme: alshedivat/al-folio
+
+# ----------------------------------------------------------------------------
+# Social integration
+# ----------------------------------------------------------------------------
+
+github_username: Bello-Abdullahi
+twitter_username: Muhammad_Bell0
+linkedin_username:
+scholar_userid: FONaAoAAAAAJ
+orcid_id: 0000-0001-5075-1812
+
+contact_note: >
+  The best way to reach me is by email.
+
+# ----------------------------------------------------------------------------
+# Layout
+# ----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+max_width: 900px
+
+# ----------------------------------------------------------------------------
+# Jekyll settings
+# ----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+include:
+  - _pages
+
+exclude:
+  - bin
+  - vendor
+  - Gemfile.lock
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# ----------------------------------------------------------------------------
+# Optional features
+# ----------------------------------------------------------------------------
+
+enable_darkmode: true
+enable_navbar_social: false
+enable_math: false
+
+# ----------------------------------------------------------------------------
+# Announcements / posts
+# ----------------------------------------------------------------------------
+
+announcements:
+  enabled: false
+
+latest_posts:
+  enabled: false
