@@ -1,89 +1,59 @@
 ---
 layout: default
 ---
-
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  <div class="about-container clearfix" style="display: block; width: 100%;">
+    
+    {% if page.profile %}
+    <div class="profile-sidebar" style="float: right; width: 30%; min-width: 250px; margin-left: 30px; margin-bottom: 20px; border-left: 1px solid #eee; padding-left: 20px;">
+      
+      {% if page.profile.image %}
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        <img src="{{ profile_image_path | relative_url }}" 
+             style="width: 100%; height: auto; border-radius: {% if page.profile.image_circular %}50%{% else %}8px{% endif %};" 
+             alt="profile-photo">
+      {% endif %}
 
-  <article>
-    {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-        {% if page.profile.image_circular %}
-          {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-        {% else %}
-          {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-        {% endif %}
-        <img src="{{ profile_image_path | relative_url }}" alt="{{ page.profile.image }}" class="{{ profile_image_class }}" />
-      {% endif -%}
-
-      {%- if page.profile.address %}
-      <div class="address" style="margin-top: 15px; font-size: 0.95rem;">
-        {{ page.profile.address | markdownify }}
-      </div>
-      {%- endif %}
-
-      <div class="profile-links" style="margin-top: 10px; font-size: 0.9rem; line-height: 1.5;">
-        {% if page.profile.email %}
-          <strong>Email:</strong> <a href="mailto:{{ page.profile.email }}">{{ page.profile.email }}</a><br>
-        {% endif %}
-        {% if page.profile.scholar %}
-          <strong>Links:</strong> <a href="{{ page.profile.scholar }}" target="_blank">Google Scholar</a><br>
-        {% endif %}
-        {% if page.profile.twitter %}
-          <a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank">Twitter</a><br>
-        {% endif %}
-        {% if page.profile.orcid %}
-          <a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank">ORCID</a>
-        {% endif %}
+      <div class="profile-info" style="margin-top: 20px; font-size: 0.9rem;">
+        {% if page.profile.address %}<p>{{ page.profile.address }}</p>{% endif %}
+        <p>
+          {% if page.profile.email %}<strong>Email:</strong> <a href="mailto:{{ page.profile.email }}">Contact</a><br>{% endif %}
+          {% if page.profile.scholar %}<a href="{{ page.profile.scholar }}">Google Scholar</a><br>{% endif %}
+          {% if page.profile.twitter %}<a href="https://twitter.com/{{ page.profile.twitter }}">Twitter/X</a><br>{% endif %}
+          {% if page.profile.orcid %}<a href="https://orcid.org/{{ page.profile.orcid }}">ORCID</a>{% endif %}
+        </p>
       </div>
     </div>
-    {%- endif %}
+    {% endif %}
 
-    <div class="clearfix">
-      {{ content }}
+    <div class="bio-text" style="display: block; overflow: hidden;">
+       <h1 class="post-title" style="margin-top: 0;">{{ site.first_name }} {{ site.last_name }}</h1>
+       {{ content }}
     </div>
 
-    {% if page.news and site.announcements.enabled -%}
-      <h2 style="margin-top: 20px;">News</h2>
-      {%- include news.html limit=true %}
-    {%- endif %}
-
-    {% if page.selected_papers -%}
-      <h2>Selected Publications</h2>
-      {%- include selected_papers.html %}
-    {%- endif %}
-  </article>
+  </div>
 </div>
 
 <style>
-  .profile {
-    width: 30%;
-    margin-left: 25px;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  .img-fluid {
-    width: 100%;
-    height: auto;
-  }
+  /* The clearfix ensures the container expands to fit the floated sidebar */
   .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
+
+  /* Responsive: Stack columns on mobile */
   @media (max-width: 768px) {
-    .profile {
+    .profile-sidebar {
       float: none !important;
-      width: 100%;
-      margin: 0 0 20px 0;
+      width: 100% !important;
+      margin: 0 0 20px 0 !important;
+      border-left: none !important;
+      padding-left: 0 !important;
       text-align: center;
+    }
+    .bio-text {
+      display: block !important;
     }
   }
 </style>
