@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" />
+    <script>
+      (function () {
+        var savedTheme = localStorage.getItem('theme');
+        var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = savedTheme || (systemDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper header-inner">
+        <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+        </a>
+        <div class="header-actions">
+          <nav class="site-nav">
+            <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+            <label for="nav-trigger">
+              <span class="menu-icon">
+                <svg viewBox="0 0 18 15" width="18px" height="15px" aria-hidden="true">
+                  <path d="M18,1.5C18,0.67,17.33,0,16.5,0h-15C0.67,0,0,0.67,0,1.5S0.67,3,1.5,3h15C17.33,3,18,2.33,18,1.5z"></path>
+                  <path d="M18,7.5C18,6.67,17.33,6,16.5,6h-15C0.67,6,0,6.67,0,7.5S0.67,9,1.5,9h15C17.33,9,18,8.33,18,7.5z"></path>
+                  <path d="M18,13.5c0-0.83-0.67-1.5-1.5-1.5h-15C0.67,12,0,12.67,0,13.5S0.67,15,1.5,15h15C17.33,15,18,14.33,18,13.5z"></path>
+                </svg>
+              </span>
+            </label>
+            <div class="trigger">
+              {% assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
+              {%- for nav_page in nav_pages -%}
+                <a class="page-link{% if page.url == nav_page.url %} is-active{% endif %}" href="{{ nav_page.url | relative_url }}">
+                  {{ nav_page.title }}
+                </a>
+              {%- endfor -%}
+            </div>
+          </nav>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+            🌙
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+      <div class="wrapper">
+        <p class="footer-note">(c) 2026 Bello Muhammad Abdullahi</p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var button = document.getElementById('theme-toggle');
+        if (!button) return;
+
+        function setButton(theme) {
+          button.textContent = theme === 'dark' ? '☀️' : '🌙';
+          button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+          button.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        }
+
+        var currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        setButton(currentTheme);
+
+        button.addEventListener('click', function () {
+          var active = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+          var next = active === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+          setButton(next);
+        });
+      })();
+    </script>
+  </body>
+</html>
