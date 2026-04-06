@@ -2,75 +2,88 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+  <article>
+    {% if page.profile -%}
+    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+      {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+        {% if page.profile.image_circular %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
+        <img src="{{ profile_image_path | relative_url }}" alt="{{ page.profile.image }}" class="{{ profile_image_class }}" />
+      {% endif -%}
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+      {%- if page.profile.address %}
+      <div class="address" style="margin-top: 15px; font-size: 0.95rem;">
+        {{ page.profile.address | markdownify }}
+      </div>
+      {%- endif %}
 
-              <img
-                    src="{{ profile_image_path | relative_url }}"
-                    alt="{{ page.profile.image | escape }}"
-                    class="{{ profile_image_class }}" />
-             {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+      <div class="profile-links" style="margin-top: 10px; font-size: 0.9rem; line-height: 1.5;">
+        {% if page.profile.email %}
+          <strong>Email:</strong> <a href="mailto:{{ page.profile.email }}">{{ page.profile.email }}</a><br>
+        {% endif %}
+        {% if page.profile.scholar %}
+          <strong>Links:</strong> <a href="{{ page.profile.scholar }}" target="_blank">Google Scholar</a><br>
+        {% endif %}
+        {% if page.profile.twitter %}
+          <a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank">Twitter</a><br>
+        {% endif %}
+        {% if page.profile.orcid %}
+          <a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank">ORCID</a>
+        {% endif %}
+      </div>
+    </div>
+    {%- endif %}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+    <div class="clearfix">
+      {{ content }}
+    </div>
 
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
+    {% if page.news and site.announcements.enabled -%}
+      <h2 style="margin-top: 20px;">News</h2>
+      {%- include news.html limit=true %}
+    {%- endif %}
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
-
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
-        </article>
-
+    {% if page.selected_papers -%}
+      <h2>Selected Publications</h2>
+      {%- include selected_papers.html %}
+    {%- endif %}
+  </article>
 </div>
+
+<style>
+  .profile {
+    width: 30%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media (max-width: 768px) {
+    .profile {
+      float: none !important;
+      width: 100%;
+      margin: 0 0 20px 0;
+      text-align: center;
+    }
+  }
+</style>
