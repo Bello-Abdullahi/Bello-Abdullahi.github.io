@@ -11,6 +11,7 @@ profile:
   image_circular: true
   email: b.abdullahi@lancaster.ac.uk
   scholar: https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en
+  linkedin: bello-muhammad-abdullahi
   twitter: Muhammad_Bell0
   orcid: 0000-0001-5075-1812
   address: >
