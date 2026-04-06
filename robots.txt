@@ -1,5 +1,4 @@
-% this file  helps search engines understand a website’s structure.
 User-agent: *
 Allow: /
 
-Sitemap: https://belloabdullahi.github.io/sitemap.xml
+Sitemap: https://bello-abdullahi.github.io/sitemap.xml
