@@ -15,38 +15,39 @@
     <meta name="description" content="Welcome! This website provides a CV and research papers of Bello Muhammad Abdullahi, Economist and PhD Student at Lancaster University."/>
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    
+    <style>
+      .profile { margin-bottom: 20px; }
+      .float-right { float: right; margin-left: 20px; }
+      .float-left { float: left; margin-right: 20px; }
+      .img-fluid { max-width: 100%; height: auto; }
+      .rounded-circle { border-radius: 50%; }
+      .clearfix::after { content: ""; clear: both; display: table; }
+      nav a { text-decoration: none; color: #007bff; }
+      nav a:hover { text-decoration: underline; }
+    </style>
   </head>
   
   <body>
-    <div class="wrapper">
-      
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">Bello Muhammad Abdullahi</a></h1>
-        <img src="{{ site.logo | relative_url }}" alt="Profile Photo" style="width:200px; border-radius:50%; margin-bottom:15px;" />
-        
-        <p><strong>PhD Economics Student</strong><br>Lancaster University</p>
-        
-        <p>
-          <b>E-mail</b>:<br>b.abdullahi [at] lancaster.ac.uk<br><br>
-          <b>Links</b>:<br>
-          <a href="https://www.lancaster.ac.uk/lums/our-departments/economics/people/bello-abdullahi" target="_blank">Lancaster Website</a><br>
-          <a href="https://twitter.com/Muhammad_Bell0" target="_blank">Twitter</a><br>
-          <a href="https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en" target="_blank">Google Scholar</a><br>
-          <a href="https://orcid.org/0000-0001-5075-1812" target="_blank">ORCID</a>
-        </p>
-      </header>
+    <div class="wrapper" style="max-width: 800px; margin: 0 auto; padding: 20px;">
       
       <section>
-        <nav style="margin-bottom: 30px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-weight: bold;">
-          <a href="{{ "/" | relative_url }}">About</a> | 
-          <a href="{{ "/cv.html" | relative_url }}">CV</a> | 
-          <a href="{{ "/research.html" | relative_url }}">Research</a> | 
-          <a href="{{ "/teaching.html" | relative_url }}">Teaching</a> | 
+        <nav style="text-align: center; margin-bottom: 40px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-weight: bold; font-size: 1.1em;">
+          <a href="{{ "/" | relative_url }}">About</a> &nbsp;|&nbsp; 
+          <a href="{{ "/cv.html" | relative_url }}">CV</a> &nbsp;|&nbsp; 
+          <a href="{{ "/research.html" | relative_url }}">Research</a> &nbsp;|&nbsp; 
+          <a href="{{ "/teaching.html" | relative_url }}">Teaching</a> &nbsp;|&nbsp; 
           <a href="{{ "/public-goods.html" | relative_url }}">Public Goods</a>
         </nav>
 
-        {{ content }}
+        <div class="main-content">
+          {{ content }}
+        </div>
       </section>
+      
+      <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.8em; color: #777; text-align: center;">
+        &copy; {{ "now" | date: "%Y" }} Bello Muhammad Abdullahi
+      </footer>
       
     </div>
   </body>
