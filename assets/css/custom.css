@@ -35,10 +35,38 @@ body {
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.4;
-  font-size: 15px;
+  font-size: 16px;
   transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* --- Header Size Refinement --- */
+
+/* The main Page Title (e.g., Teaching and Mentorship) */
+h1, .post-title {
+  font-size: 1.8rem !important; /* Reduced from ~2.5rem */
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+/* Section Headers (e.g., Mentorship, Future Teaching Interests) */
+h2 {
+  font-size: 1.4rem !important; /* Much cleaner and balanced */
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border); /* Optional: adds a subtle line like Lukas's site */
+  padding-bottom: 0.3rem;
+}
+
+/* Sub-section Headers (if you use them) */
+h3 {
+  font-size: 1.15rem !important;
+  font-weight: 600;
+  margin-top: 1.5rem;
 }
 
 a {
