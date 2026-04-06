@@ -17,7 +17,7 @@ While I have not yet taught formal university courses, I am actively involved in
 
 * **Northern Elite Scholars** (2023 – Present)
     * **Lead Mentor**: Providing guidance to postgraduate applicants from Northern Nigeria.
-    * Responsibilities include reviewing Statements of Purpose (SOPs), CV, Conducting interview pre and advising on scholarship applications.
+    * Responsibilities include reviewing Statements of Purpose (SOPs), CV, conducting interview prep and advising on scholarship applications.
 
 ---
 
