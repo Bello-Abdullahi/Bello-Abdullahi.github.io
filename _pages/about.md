@@ -19,9 +19,9 @@ profile:
     Lancaster University <br>
     United Kingdom
 
-news: false
+news: true
 latest_posts: false
-selected_papers: false
+selected_papers: true
 social: false
 
 ---
