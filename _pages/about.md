@@ -34,8 +34,9 @@ Through the [Northern Elite Scholars](https://nesplatform.com) platform a Northe
 
 ## News
 
-<div style="margin-bottom: 10px;">▶ <strong>April 2026:</strong> Our paper, <em>"Does Private Energy Investment Improve China's Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach"</em>, got accepted in <em>Environmental Sciences Europe</em>.</div>
+<div style="margin-bottom: 10px;">▶ <strong>April 2026:</strong> Our paper, <em>"Does Private Energy Investment Improve China's Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach"</em> just got accepted in <em>Environmental Sciences Europe</em>.</div>
 
+<!--
 <div style="margin-bottom: 10px;">▶ <strong>November 2025:</strong> Awarded MSc Applied Economics with Distinction from the University of Strathclyde.</div>
 
 <div style="margin-bottom: 10px;">▶ <strong>October 2025:</strong> Started my PhD in Economics at Lancaster University.</div>
@@ -47,4 +48,5 @@ Through the [Northern Elite Scholars](https://nesplatform.com) platform a Northe
 <div style="margin-bottom: 10px;">▶ <strong>September 2024:</strong> Presented a paper at the 65th Annual Conference of the Nigerian Economic Society in Abuja.</div>
 
 <div style="margin-bottom: 10px;">▶ <strong>September 2024:</strong> Awarded the PTDF Overseas Scholarship to pursue an MSc in Applied Economics at the University of Strathclyde.</div>
+-->
 
