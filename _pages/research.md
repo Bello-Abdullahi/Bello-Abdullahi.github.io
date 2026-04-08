@@ -24,54 +24,6 @@ nav_order: 3
 <a href="#" target="_blank"><u>[Ungated (Forthcoming)]</u></a> 
 <a href="#" target="_blank"><u>[BibTex]</u></a>
 
----
-
-## Policy Work
-
-<details>
-  <summary markdown="span"><font color="blue">Poverty and Inequality in Nigeria</font> [abstract]
-  <br />
-  (CSEA Policy Brief, 2025)
-  </summary>
-
-  | **Abstract** |
-  |:-------------|
-  | I examine the underlying drivers of poverty and inequality in Nigeria, where over 133 million people live in multidimensional poverty despite a working population of more than 110 million. I highlight critical issues such as underinvestment in human capital, widespread informal employment, food insecurity, and systemic wage disparities, while providing actionable policy recommendations. |
-
-</details>
-<a href="https://www.cseaafrica.org/postdetails/poverty-and-inequality-in-nigeria?page=18" target="_blank"><u>[Link to Brief]</u></a>
-
-<br>
-
-<details>
-  <summary markdown="span"><font color="blue">Youth Unemployment and Gender Inequality in Africa</font> [abstract]
-  <br />
-  (with Edafe Oluwatosin Deborah, 2024) <br />
-  <b> <i>CSEA Policy Brief </i> </b>
-  </summary>
-
-  | **Abstract** |
-  |:-------------|
-  | We address the critical issues of youth unemployment and gender inequality in Africa, emphasizing the barriers women face in accessing education and employment. Our analysis highlights disparities in employment between men and women and recommends structural reforms in education and economic diversification to achieve sustainable development goals. |
-
-</details>
-<a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
-
-<br>
-
-<details>
-  <summary markdown="span"><font color="blue">Does increasing the Minimum Wage increase inflation?</font> [abstract]
-  <br />
-  (with Achi Peter Chidebere, 2024) <br />
-  <b> <i>CSEA Policy Brief </i> </b>
-  </summary>
-
-  | **Abstract** |
-  |:-------------|
-  | We examine the potential impact of a minimum wage increase in Nigeria, taking into account the current economic state and the factors driving inflation. We provide a well-informed recommendation for a sustainable minimum wage that balances workers' needs with economic feasibility to guide government and labor union negotiations. |
-
-</details>
-<a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
 
 ---
 
@@ -83,10 +35,7 @@ nav_order: 3
   (with Shehu El-Rasheed and Abdulateef Mustapha, 2023) <br />
   <b> <i>Gusau International Journal of Management and Social Sciences </i> </b>
   </summary>
-
-  | **Abstract** |
-  |:-------------|
-  | In this study, we employ a linear autoregressive distributive lag (ARDL) model to investigate inflation dynamics and food prices in Nigeria. Our findings reveal that higher oil prices exert a short-term large positive influence on food prices, but their long-term impact is negligible. Conversely, increased money supply significantly impacts food prices in both the short and long term. |
+  |This paper investigates the fundamental drivers of food inflation in Nigeria. Using a linear ARDL model we found that oil price shocks exert large positve effect on food prices in the short run but have neglible long run impact; money supply growth, by contrast, significantly raises food prices in both the short and long run.|
 
 </details>
 <a href="#" target="_blank"><u>[Published Version]</u></a> 
@@ -100,10 +49,7 @@ nav_order: 3
   (with Shehu El-Rasheed, 2022) <br />
   <b> <i>Journal of Economics and Allied Research </i> </b>
   </summary>
-
-  | **Abstract** |
-  |:-------------|
-  | Utilizing the ARDL model and Granger causality tests, we find a long-run bidirectional relationship between FDI and economic growth in Nigeria. Results show that while labor has a long-term negative impact, FDI, exchange rates, and capital have positive influences. We recommend enhancing the business climate and infrastructure to increase investor confidence. |
+  | This paper examines the casual relationship between foreign direct investment (FDI) and economic growth in Nigeria. Our pairwise Granger causality tests results suggest a bidirectional causality between FDI and GDP per capita. Our results also further suggest that FDI, exchange rate and increased capital exert postive effects on growth|
 
 </details>
 <a href="#" target="_blank"><u>[Published Version]</u></a> 
@@ -114,4 +60,49 @@ nav_order: 3
 ## Books & Chapters
 
 **Global Business Dynamics, Value Chains, and Cultural Linkages** (2024)  
-*Edited by Prof. Rainer Wehner and Prof. Emin Akçaoğlu* Contributed a chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr. Sindhu Natha, and Jörg Meyer.
+*Edited by Prof. Rainer Wehner and Prof. Emin Akçaoğlu* 
+Contributed a chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr. Sindhu Natha, and Jörg Meyer.
+</details>
+<a href="#" target="_blank"><u>[Published Version]</u></a> 
+<a href="#" target="_blank"><u>[BibTex]</u></a>
+
+
+---
+
+## Policy Work
+
+<details>
+  <summary markdown="span"><font color="blue">Poverty and Inequality in Nigeria</font> [abstract]
+  <br />
+  <b> <i>CSEA Policy Brief, 2025 </i> </b>  
+  </summary>
+  | Nigeria is home to over 133 million people living in multidimensional poverty. In this policy brief, I examined the underlying drivers of this crises.  I highlighted  chronic underinvestment in human capital, widespread informality, food insecurity, and systemic wage disparities as the primary drivers and offer targeted policy recommendations for each.|
+
+</details>
+<a href="https://www.cseaafrica.org/postdetails/poverty-and-inequality-in-nigeria?page=18" target="_blank"><u>[Link to Brief]</u></a>
+
+<br>
+
+<details>
+  <summary markdown="span"><font color="blue">Youth Unemployment and Gender Inequality in Africa</font> [abstract]
+  <br />
+  (with Edafe Oluwatosin Deborah) <br />
+  <b> <i>CSEA Policy Brief, 2024 </i> </b>
+  </summary>
+  |This brief documents the drivers of youth unemployment and gender inequality in Africa. It examines barriers to education and labor market access faced by women and highlights the persistent gender disparities in employment outcomes in the region.|
+
+</details>
+<a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
+
+<br>
+
+<details>
+  <summary markdown="span"><font color="blue">Does increasing the Minimum Wage increase inflation?</font> [abstract]
+  <br />
+  (with Achi Peter Chidebere) <br />
+  <b> <i>CSEA Policy Brief, 2024 </i> </b>
+  </summary>
+  | We examine the potential impact of a minimum wage increase in Nigeria, taking into account the current economic state and the factors driving inflation. We provide a well-informed recommendation for a sustainable minimum wage that balances workers' needs with economic feasibility to guide government and labor union negotiations. |
+
+</details>
+<a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
