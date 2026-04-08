@@ -16,14 +16,6 @@ nav_order: 3
   <b> <i>Environmental Sciences Europe, Accepted (Forthcoming) </i> </b> 
   </summary>
 
-  | **Abstract** |
-  |:-------------|
-  | [Insert your abstract here once finalized. This space is currently reserved for the forthcoming paper's summary.] |
-
-</details>
-<a href="#" target="_blank"><u>[Ungated (Forthcoming)]</u></a> 
-<a href="#" target="_blank"><u>[BibTex]</u></a>
-
 
 ---
 
@@ -35,7 +27,9 @@ nav_order: 3
   (with Shehu El-Rasheed and Abdulateef Mustapha, 2023) <br />
   <b> <i>Gusau International Journal of Management and Social Sciences </i> </b>
   </summary>
-  |This paper investigates the fundamental drivers of food inflation in Nigeria. Using a linear ARDL model we found that oil price shocks exert large positve effect on food prices in the short run but have neglible long run impact; money supply growth, by contrast, significantly raises food prices in both the short and long run.|
+    </b> Abstract</b>
+  ---
+This paper investigates the fundamental drivers of food inflation in Nigeria. Using a linear ARDL model we found that oil price shocks exert large positve effect on food prices in the short run but have neglible long run impact; money supply growth, by contrast, significantly raises food prices in both the short and long run
 
 </details>
 <a href="#" target="_blank"><u>[Published Version]</u></a> 
@@ -49,7 +43,9 @@ nav_order: 3
   (with Shehu El-Rasheed, 2022) <br />
   <b> <i>Journal of Economics and Allied Research </i> </b>
   </summary>
-  | This paper examines the casual relationship between foreign direct investment (FDI) and economic growth in Nigeria. Our pairwise Granger causality tests results suggest a bidirectional causality between FDI and GDP per capita. Our results also further suggest that FDI, exchange rate and increased capital exert postive effects on growth|
+  </b> Abstract</b>
+  ---
+This paper examines the casual relationship between foreign direct investment (FDI) and economic growth in Nigeria. Our pairwise Granger causality tests results suggest a bidirectional causality between FDI and GDP per capita. Our results also further suggest that FDI, exchange rate and increased capital exert postive effects on growth
 
 </details>
 <a href="#" target="_blank"><u>[Published Version]</u></a> 
@@ -76,7 +72,9 @@ Contributed a chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr.
   <br />
   <b> <i>CSEA Policy Brief, 2025 </i> </b>  
   </summary>
-  | Nigeria is home to over 133 million people living in multidimensional poverty. In this policy brief, I examined the underlying drivers of this crises.  I highlighted  chronic underinvestment in human capital, widespread informality, food insecurity, and systemic wage disparities as the primary drivers and offer targeted policy recommendations for each.|
+  </b> Abstract</b>
+  ---
+Nigeria is home to over 133 million people living in multidimensional poverty. In this policy brief, I examined the underlying drivers of this crises.  I highlighted  chronic underinvestment in human capital, widespread informality, food insecurity, and systemic wage disparities as the primary drivers and offer targeted policy recommendations for each.
 
 </details>
 <a href="https://www.cseaafrica.org/postdetails/poverty-and-inequality-in-nigeria?page=18" target="_blank"><u>[Link to Brief]</u></a>
@@ -89,7 +87,9 @@ Contributed a chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr.
   (with Edafe Oluwatosin Deborah) <br />
   <b> <i>CSEA Policy Brief, 2024 </i> </b>
   </summary>
-  |This brief documents the drivers of youth unemployment and gender inequality in Africa. It examines barriers to education and labor market access faced by women and highlights the persistent gender disparities in employment outcomes in the region.|
+  </b> Abstract</b>
+  ---
+  This brief documents the drivers of youth unemployment and gender inequality in Africa. It examines barriers to education and labor market access faced by women and highlights the persistent gender disparities in employment outcomes in the region.
 
 </details>
 <a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
@@ -102,7 +102,9 @@ Contributed a chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr.
   (with Achi Peter Chidebere) <br />
   <b> <i>CSEA Policy Brief, 2024 </i> </b>
   </summary>
-  | We examine the potential impact of a minimum wage increase in Nigeria, taking into account the current economic state and the factors driving inflation. We provide a well-informed recommendation for a sustainable minimum wage that balances workers' needs with economic feasibility to guide government and labor union negotiations. |
+  </b> Abstract</b>
+  ---
+We examine the potential impact of a minimum wage increase in Nigeria, taking into account the current economic state and the factors driving inflation. We provide a well-informed recommendation for a sustainable minimum wage that balances workers' needs with economic feasibility to guide government and labor union negotiations.
 
 </details>
 <a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
