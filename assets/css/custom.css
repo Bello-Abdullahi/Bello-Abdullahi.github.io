@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
+
 :root {
   --bg: #f8fafc;
   --surface: #ffffff;
@@ -35,7 +37,7 @@ body {
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: "Libre Baskerville", serif;
+  font-family: "Computer Modern Serif", serif;
   line-height: 1.4;
   font-size: 18px;
   transition: background-color 0.25s ease, color 0.25s ease;
