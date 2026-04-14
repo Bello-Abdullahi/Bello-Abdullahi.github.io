@@ -231,11 +231,12 @@ a {
 }
 
 .profile img {
-  border: 2px solid var(--border);
-  box-shadow: var(--shadow);
   width: 100%;
+  max-width: 250px;
   height: auto;
-  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 10px;
 }
 
 .site-footer {
