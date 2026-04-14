@@ -1,14 +1,14 @@
 @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
 
 :root {
-  --bg: #f8fafc;
-  --surface: #ffffff;
-  --text: #172033;
-  --muted: #5a657a;
-  --border: #dbe3ef;
-  --primary: #1f4e8c;
+  --bg: #ffffff;           /* Pure white background */
+  --surface: #ffffff;      /* Keeps containers white */
+  --text: #111111;         /* Very dark black for readability */
+  --muted: #555555;        /* Neutral gray for secondary text */
+  --border: #e0e0e0;       /* Lighter, neutral gray for borders */
+  --primary: #1f4e8c;      /* Keep your navy blue! It's very professional */
   --primary-hover: #173c6c;
-  --shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Softer, more subtle shadow */
 }
 
 :root[data-theme='dark'] {
