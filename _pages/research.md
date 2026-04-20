@@ -7,123 +7,96 @@ nav: true
 nav_order: 3
 ---
 
-## Working Papers
+<p class="research-group-label">Working Papers &amp; Forthcoming</p>
 
-<details>
-  <summary markdown="span"><font color="blue">Does Private Energy Investment Improve China's Resource Adjusted Socio-Ecological Development? Evidence From a Dynamic ARDL Approach</font> [abstract]
-  <br />
-  (with Khan, A. K., and Mustafa, N., 2026) <br />
-  <b> <i>Environmental Sciences Europe, Accepted (Forthcoming) </i> </b>
-  </summary>
+<div class="paper-card forthcoming">
+  <div class="paper-title">Does Private Energy Investment Improve China's Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach</div>
+  <div class="paper-authors">with Khan, A. K., and Mustafa, N. (2026)</div>
+  <div class="paper-venue forthcoming">Environmental Sciences Europe — Accepted (Forthcoming)</div>
+  <div class="paper-links">
+    <a href="#" class="paper-link">Abstract</a>
+    <a href="#" class="paper-link">Pre-print</a>
+  </div>
+</div>
 
-  <b>Abstract</b>
+<p class="research-group-label">Pre-PhD Publications</p>
 
-  ---
+<div class="paper-card">
+  <div class="paper-title">Inflation Dynamics and Food Prices in Nigeria</div>
+  <div class="paper-authors">with Shehu El-Rasheed and Abdulateef Mustapha (2023)</div>
+  <div class="paper-venue">Gusau International Journal of Management and Social Sciences</div>
+  <details style="margin-top:10px; font-size:0.88rem; color:#444;">
+    <summary style="cursor:pointer; color:var(--lu-blue); font-weight:600;">Abstract</summary>
+    <p style="margin-top:8px;">This paper investigates the fundamental drivers of food inflation in Nigeria. Using a linear ARDL model we found that oil price shocks exert large positive effects on food prices in the short run but have negligible long-run impact; money supply growth, by contrast, significantly raises food prices in both the short and long run.</p>
+  </details>
+  <div class="paper-links">
+    <a href="#" class="paper-link">Published Version</a>
+    <a href="#" class="paper-link">BibTeX</a>
+  </div>
+</div>
 
-</details>
+<div class="paper-card">
+  <div class="paper-title">Revisiting Foreign Direct Investment–Economic Growth Nexus in Nigeria: An ARDL Approach</div>
+  <div class="paper-authors">with Shehu El-Rasheed (2022)</div>
+  <div class="paper-venue">Journal of Economics and Allied Research</div>
+  <details style="margin-top:10px; font-size:0.88rem; color:#444;">
+    <summary style="cursor:pointer; color:var(--lu-blue); font-weight:600;">Abstract</summary>
+    <p style="margin-top:8px;">This paper examines the causal relationship between foreign direct investment (FDI) and economic growth in Nigeria. Our pairwise Granger causality tests suggest bidirectional causality between FDI and GDP per capita. FDI, exchange rate, and increased capital exert positive effects on growth.</p>
+  </details>
+  <div class="paper-links">
+    <a href="#" class="paper-link">Published Version</a>
+    <a href="#" class="paper-link">BibTeX</a>
+  </div>
+</div>
 
----
+<p class="research-group-label">Books &amp; Chapters</p>
 
-## Pre-PhD Publications
+<div class="paper-card book">
+  <div class="paper-title">Global Business Dynamics, Value Chains, and Cultural Linkages (2024)</div>
+  <div class="paper-authors">Ed. Prof. Rainer Wehner &amp; Prof. Emin Akçaoğlu — contributed chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr. Sindhu Natha, and Jörg Meyer.</div>
+  <div class="paper-links">
+    <a href="#" class="paper-link">Published Version</a>
+    <a href="#" class="paper-link">BibTeX</a>
+  </div>
+</div>
 
-<details>
-  <summary markdown="span"><font color="blue">Inflation Dynamics and Food Prices in Nigeria</font> [abstract]
-  <br />
-  (with Shehu El-Rasheed and Abdulateef Mustapha, 2023) <br />
-  <b> <i>Gusau International Journal of Management and Social Sciences </i> </b>
-  </summary>
+<p class="research-group-label">Policy Work</p>
 
-  <b>Abstract</b>
+<div class="paper-card policy">
+  <div class="paper-title">Poverty and Inequality in Nigeria</div>
+  <div class="paper-authors">CSEA Policy Brief, 2025</div>
+  <div class="paper-venue policy-venue">Centre for the Study of the Economies of Africa</div>
+  <details style="margin-top:10px; font-size:0.88rem; color:#444;">
+    <summary style="cursor:pointer; color:var(--lu-green); font-weight:600;">Abstract</summary>
+    <p style="margin-top:8px;">Nigeria is home to over 133 million people living in multidimensional poverty. This policy brief examines the underlying drivers, highlighting chronic underinvestment in human capital, widespread informality, food insecurity, and systemic wage disparities, and offers targeted policy recommendations.</p>
+  </details>
+  <div class="paper-links">
+    <a href="https://www.cseaafrica.org/postdetails/poverty-and-inequality-in-nigeria?page=18" class="paper-link">View Brief</a>
+  </div>
+</div>
 
-  ---
+<div class="paper-card policy">
+  <div class="paper-title">Youth Unemployment and Gender Inequality in Africa</div>
+  <div class="paper-authors">with Edafe Oluwatosin Deborah — CSEA Policy Brief, 2024</div>
+  <div class="paper-venue policy-venue">Centre for the Study of the Economies of Africa</div>
+  <details style="margin-top:10px; font-size:0.88rem; color:#444;">
+    <summary style="cursor:pointer; color:var(--lu-green); font-weight:600;">Abstract</summary>
+    <p style="margin-top:8px;">This brief documents the drivers of youth unemployment and gender inequality in Africa, examining barriers to education and labour market access faced by women and highlighting persistent gender disparities in employment outcomes.</p>
+  </details>
+  <div class="paper-links">
+    <a href="#" class="paper-link">Policy Brief (PDF)</a>
+  </div>
+</div>
 
-  This paper investigates the fundamental drivers of food inflation in Nigeria. Using a linear ARDL model we found that oil price shocks exert large positve effect on food prices in the short run but have neglible long run impact; money supply growth, by contrast, significantly raises food prices in both the short and long run
-
-</details>
-<a href="#" target="_blank"><u>[Published Version]</u></a>
-<a href="#" target="_blank"><u>[BibTex]</u></a>
-
-<br>
-
-<details>
-  <summary markdown="span"><font color="blue">Revisiting Foreign Direct Investment - Economic Growth Nexus in Nigeria: An ARDL Approach</font> [abstract]
-  <br />
-  (with Shehu El-Rasheed, 2022) <br />
-  <b> <i>Journal of Economics and Allied Research </i> </b>
-  </summary>
-
-  <b>Abstract</b>
-
-  ---
-
-  This paper examines the casual relationship between foreign direct investment (FDI) and economic growth in Nigeria. Our pairwise Granger causality tests results suggest a bidirectional causality between FDI and GDP per capita. Our results also further suggest that FDI, exchange rate and increased capital exert postive effects on growth
-
-</details>
-<a href="#" target="_blank"><u>[Published Version]</u></a>
-<a href="#" target="_blank"><u>[BibTex]</u></a>
-
----
-
-## Books & Chapters
-
-**Global Business Dynamics, Value Chains, and Cultural Linkages** (2024)  
-*Edited by Prof. Rainer Wehner and Prof. Emin Akçaoğlu*  
-Contributed a chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr. Sindhu Natha, and Jörg Meyer.
-
-<a href="#" target="_blank"><u>[Published Version]</u></a>
-<a href="#" target="_blank"><u>[BibTex]</u></a>
-
----
-
-## Policy Work
-
-<details>
-  <summary markdown="span"><font color="blue">Poverty and Inequality in Nigeria</font> [abstract]
-  <br />
-  <b> <i>CSEA Policy Brief, 2025 </i> </b>
-  </summary>
-
-  <b>Abstract</b>
-
-  ---
-
-  Nigeria is home to over 133 million people living in multidimensional poverty. In this policy brief, I examined the underlying drivers of this crises. I highlighted chronic underinvestment in human capital, widespread informality, food insecurity, and systemic wage disparities as the primary drivers and offer targeted policy recommendations for each.
-
-</details>
-<a href="https://www.cseaafrica.org/postdetails/poverty-and-inequality-in-nigeria?page=18" target="_blank"><u>[Link to Brief]</u></a>
-
-<br>
-
-<details>
-  <summary markdown="span"><font color="blue">Youth Unemployment and Gender Inequality in Africa</font> [abstract]
-  <br />
-  (with Edafe Oluwatosin Deborah) <br />
-  <b> <i>CSEA Policy Brief, 2024 </i> </b>
-  </summary>
-
-  <b>Abstract</b>
-
-  ---
-
-  This brief documents the drivers of youth unemployment and gender inequality in Africa. It examines barriers to education and labor market access faced by women and highlights the persistent gender disparities in employment outcomes in the region.
-
-</details>
-<a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
-
-<br>
-
-<details>
-  <summary markdown="span"><font color="blue">Does increasing the Minimum Wage increase inflation?</font> [abstract]
-  <br />
-  (with Achi Peter Chidebere) <br />
-  <b> <i>CSEA Policy Brief, 2024 </i> </b>
-  </summary>
-
-  <b>Abstract</b>
-
-  ---
-
-  We examine the potential impact of a minimum wage increase in Nigeria, taking into account the current economic state and the factors driving inflation. We provide a well-informed recommendation for a sustainable minimum wage that balances workers' needs with economic feasibility to guide government and labor union negotiations.
-
-</details>
-<a href="#" target="_blank"><u>[Policy Brief (PDF)]</u></a>
+<div class="paper-card policy">
+  <div class="paper-title">Does Increasing the Minimum Wage Increase Inflation?</div>
+  <div class="paper-authors">with Achi Peter Chidebere — CSEA Policy Brief, 2024</div>
+  <div class="paper-venue policy-venue">Centre for the Study of the Economies of Africa</div>
+  <details style="margin-top:10px; font-size:0.88rem; color:#444;">
+    <summary style="cursor:pointer; color:var(--lu-green); font-weight:600;">Abstract</summary>
+    <p style="margin-top:8px;">We examine the potential impact of a minimum wage increase in Nigeria, taking into account the current economic state and the factors driving inflation, offering a well-informed recommendation that balances workers' needs with economic feasibility.</p>
+  </details>
+  <div class="paper-links">
+    <a href="#" class="paper-link">Policy Brief (PDF)</a>
+  </div>
+</div>
