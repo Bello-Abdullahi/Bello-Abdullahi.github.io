@@ -14,39 +14,38 @@ profile:
   linkedin: bello-muhammad-abdullahi
   twitter: Muhammad_Bell0
   orcid: 0000-0001-5075-1812
-  address: >
-    PhD Economics Student <br>
-    Lancaster University <br>
-    United Kingdom
 
-news: true
+news: false
 latest_posts: false
-selected_papers: true
+selected_papers: false
 social: false
-
 ---
 
-I am a PhD Economics Student at [Lancaster University](https://www.lancaster.ac.uk) under the supervison of [Prof. Lorenza Rossi](https://sites.google.com/view/lorenza-rossi/home-page) and [Dr. Stefano Fasani](https://sites.google.com/view/stefano-fasani). I obtained my MSc in Applied Economics from University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the [Centre for the Study of the Economies of Africa (CSEA)](https://www.cseaafrica.org/), where I contributed to policy-oriented development research in Africa.
+I am a PhD Economics Student at [Lancaster University](https://www.lancaster.ac.uk) under the supervision of [Prof. Lorenza Rossi](https://sites.google.com/view/lorenza-rossi/home-page) and [Dr. Stefano Fasani](https://sites.google.com/view/stefano-fasani). I obtained my MSc in Applied Economics from the University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the [Centre for the Study of the Economies of Africa (CSEA)](https://www.cseaafrica.org/), where I contributed to policy-oriented development research in Africa.
 
-I also serve as an EDI representative for the [North West Social Science Doctoral Training Partnership](https://nwssdtp.ac.uk/current-students/student-representatives/). Feel free to reach out if you have any concerns. In my free time, I mentor graduate students from Africa who are interested in pursuing higher education opportunities. If you are an African student considering graduate school and need guidance—whether you're uncertain about your decision or need help reviewing your application materials. Shoot me an email [here](mailto:belloabdullahimuhammad1@gmail.com).
+I also serve as an EDI representative for the [North West Social Science Doctoral Training Partnership](https://nwssdtp.ac.uk/current-students/student-representatives/). In my free time, I mentor graduate students from Africa who are interested in pursuing higher education opportunities. If you are an African student considering graduate school and need guidance, shoot me an email [here](mailto:belloabdullahimuhammad1@gmail.com).
 
-Through the [Northern Elite Scholars](https://nesplatform.com) platform a Northern Nigeria focused mentorship program we have mentored and provided support to mentees in their graduate schools application that has over the years resulted in over $1,000,000 in funding for scholarships. If you are looking at suppporting our intiative, please feel free to get in touch.
+<div class="mentor-callout">
+  <strong>Mentorship:</strong> Through the <a href="https://nesplatform.com">Northern Elite Scholars</a> platform — a Northern Nigeria-focused mentorship programme — we have supported mentees in securing over $1,000,000 in scholarship funding. If you would like to support our initiative, please <a href="mailto:belloabdullahimuhammad1@gmail.com">get in touch</a>.
+</div>
 
 ## News
 
-<div style="margin-bottom: 10px;">▶ <strong>April 2026:</strong> Our paper, <em>"Does Private Energy Investment Improve China's Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach"</em> just got accepted in <em>Environmental Sciences Europe</em>.</div>
-
-<!--
-<div style="margin-bottom: 10px;">▶ <strong>November 2025:</strong> Awarded MSc Applied Economics with Distinction from the University of Strathclyde.</div>
-
-<div style="margin-bottom: 10px;">▶ <strong>October 2025:</strong> Started my PhD in Economics at Lancaster University.</div>
-
-<div style="margin-bottom: 10px;">▶ <strong>April 2025:</strong> Awarded the ESRC CASE Studentship under the North West Doctoral Training Partnership.</div>
-
-<div style="margin-bottom: 10px;">▶ <strong>December 2024:</strong> Presented a paper at the 8th International Conference of Economics and Finance in Turkey.</div>
-
-<div style="margin-bottom: 10px;">▶ <strong>September 2024:</strong> Presented a paper at the 65th Annual Conference of the Nigerian Economic Society in Abuja.</div>
-
-<div style="margin-bottom: 10px;">▶ <strong>September 2024:</strong> Awarded the PTDF Overseas Scholarship to pursue an MSc in Applied Economics at the University of Strathclyde.</div>
--->
-
+<ul class="news-list">
+  <li>
+    <span class="news-date">Apr 2026</span>
+    <span>Paper accepted in <em>Environmental Sciences Europe</em>: &ldquo;Does Private Energy Investment Improve China&rsquo;s Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach&rdquo; <span class="news-tag">Publication</span></span>
+  </li>
+  <li>
+    <span class="news-date">Dec 2024</span>
+    <span>Presented a paper at the 8th International Conference of Economics and Finance in Turkey. <span class="news-tag blue">Conference</span></span>
+  </li>
+  <li>
+    <span class="news-date">Sep 2024</span>
+    <span>Presented a paper at the 65th Annual Conference of the Nigerian Economic Society in Abuja. <span class="news-tag blue">Conference</span></span>
+  </li>
+  <li>
+    <span class="news-date">Sep 2024</span>
+    <span>Awarded the PTDF Overseas Scholarship to pursue an MSc in Applied Economics at the University of Strathclyde. <span class="news-tag" style="background:var(--lu-green);">Award</span></span>
+  </li>
+</ul>
