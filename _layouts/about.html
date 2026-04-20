@@ -17,11 +17,13 @@ layout: default
       {% endif %}
 
       <div class="profile-info">
-
+        
+        {% comment %}
         <strong>Citations</strong>
         <span id="scholar-cite-count" style="color:var(--lu-red); font-weight:600;">—</span>
         &nbsp;<a href="https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en" target="_blank" rel="noopener" style="font-size:0.78rem;">(Google Scholar)</a>
-
+        {% endcomment %}
+        
         <strong>Email</strong>
         <a href="mailto:{{ page.profile.email }}">b.abdullahi [at] lancaster.ac.uk</a>
 
@@ -39,12 +41,14 @@ layout: default
           <a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank" rel="noopener">Twitter / X</a>
         {% endif %}
 
+        {% endcomment %}
         <strong>Affiliation</strong>
         <a href="https://www.lancaster.ac.uk" target="_blank" rel="noopener"
            style="color: var(--lu-blue);">Lancaster University</a>
         <span style="font-size:0.82rem; color: var(--muted); display:block; margin-top:2px;">
           Department of Economics<br>Lancaster, LA1 4YW, UK
         </span>
+        {% endcomment %}
 
       </div>
     </div>
