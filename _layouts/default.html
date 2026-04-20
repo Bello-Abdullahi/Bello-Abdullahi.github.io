@@ -12,6 +12,7 @@
     <meta name="google-site-verification" content="BNigeYej0ArHxh1JDgWo5J_SReuujSFDRC1y1N2YD0A" />
 
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" />
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
 
     <!-- Apply saved theme before paint to prevent flash -->
     <script>
@@ -77,7 +78,17 @@
       </div>
     </footer>
 
-    <!-- Dark mode toggle script -->
+    <!-- Google Scholar citation count — update scholar_citations in _config.yml -->
+  <script>
+    (function () {
+      var el = document.getElementById('scholar-cite-count');
+      if (!el) return;
+      var count = "{{ site.scholar_citations }}";
+      if (count && count !== "") el.textContent = count;
+    })();
+  </script>
+
+  <!-- Dark mode toggle script -->
     <script>
       (function () {
         var btn = document.getElementById('theme-toggle');
