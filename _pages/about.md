@@ -8,7 +8,7 @@ nav_order: 1
 profile:
   align: left
   image: Passport.png
-  image_circular: true
+  image_circular: false
   email: b.abdullahi@lancaster.ac.uk
   scholar: https://scholar.google.com/citations?user=FONaAoAAAAAJ&hl=en
   linkedin: bello-muhammad-abdullahi
