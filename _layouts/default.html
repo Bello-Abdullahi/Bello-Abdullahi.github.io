@@ -3,88 +3,99 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     {% seo %}
 
     <meta name="google-site-verification" content="BNigeYej0ArHxh1JDgWo5J_SReuujSFDRC1y1N2YD0A" />
-    
+
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" />
+
+    <!-- Apply saved theme before paint to prevent flash -->
     <script>
       (function () {
-        var savedTheme = localStorage.getItem('theme');
-        var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var theme = savedTheme || (systemDark ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-theme', theme);
+        var saved = localStorage.getItem('theme');
+        var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', saved || (dark ? 'dark' : 'light'));
       })();
     </script>
   </head>
+
   <body>
+    <!-- ── Header ── -->
     <header class="site-header" role="banner">
       <div class="wrapper header-inner">
         <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
           {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
         </a>
+
         <div class="header-actions">
-          <nav class="site-nav">
+          <nav class="site-nav" aria-label="Main navigation">
             <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-            <label for="nav-trigger">
+            <label for="nav-trigger" aria-label="Toggle menu">
               <span class="menu-icon">
                 <svg viewBox="0 0 18 15" width="18px" height="15px" aria-hidden="true">
-                  <path d="M18,1.5C18,0.67,17.33,0,16.5,0h-15C0.67,0,0,0.67,0,1.5S0.67,3,1.5,3h15C17.33,3,18,2.33,18,1.5z"></path>
-                  <path d="M18,7.5C18,6.67,17.33,6,16.5,6h-15C0.67,6,0,6.67,0,7.5S0.67,9,1.5,9h15C17.33,9,18,8.33,18,7.5z"></path>
-                  <path d="M18,13.5c0-0.83-0.67-1.5-1.5-1.5h-15C0.67,12,0,12.67,0,13.5S0.67,15,1.5,15h15C17.33,15,18,14.33,18,13.5z"></path>
+                  <path d="M18,1.5C18,0.67,17.33,0,16.5,0h-15C0.67,0,0,0.67,0,1.5S0.67,3,1.5,3h15C17.33,3,18,2.33,18,1.5z"/>
+                  <path d="M18,7.5C18,6.67,17.33,6,16.5,6h-15C0.67,6,0,6.67,0,7.5S0.67,9,1.5,9h15C17.33,9,18,8.33,18,7.5z"/>
+                  <path d="M18,13.5c0-0.83-0.67-1.5-1.5-1.5h-15C0.67,12,0,12.67,0,13.5S0.67,15,1.5,15h15C17.33,15,18,14.33,18,13.5z"/>
                 </svg>
               </span>
             </label>
             <div class="trigger">
               {% assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
               {%- for nav_page in nav_pages -%}
-                <a class="page-link{% if page.url == nav_page.url %} is-active{% endif %}" href="{{ nav_page.url | relative_url }}">
+                <a class="page-link{% if page.url == nav_page.url %} is-active{% endif %}"
+                   href="{{ nav_page.url | relative_url }}">
                   {{ nav_page.title }}
                 </a>
               {%- endfor -%}
             </div>
           </nav>
-          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
-            🌙
-          </button>
+
+          <button id="theme-toggle" class="theme-toggle" type="button"
+                  aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
         </div>
       </div>
     </header>
 
+    <!-- ── Main content ── -->
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
 
+    <!-- ── Footer ── -->
     <footer class="site-footer h-card">
       <div class="wrapper">
-        <p class="footer-note">(c) 2026 Bello Muhammad Abdullahi</p>
+        <p class="footer-note">
+          &copy; 2026 Bello Muhammad Abdullahi &nbsp;&middot;&nbsp;
+          <a href="https://www.lancaster.ac.uk">Lancaster University</a>
+        </p>
       </div>
     </footer>
 
+    <!-- Dark mode toggle script -->
     <script>
       (function () {
-        var button = document.getElementById('theme-toggle');
-        if (!button) return;
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
 
-        function setButton(theme) {
-          button.textContent = theme === 'dark' ? '☀️' : '🌙';
-          button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-          button.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+          btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+          btn.setAttribute('title',      theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
         }
 
-        var currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-        setButton(currentTheme);
+        applyTheme(document.documentElement.getAttribute('data-theme') || 'light');
 
-        button.addEventListener('click', function () {
-          var active = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-          var next = active === 'dark' ? 'light' : 'dark';
-          document.documentElement.setAttribute('data-theme', next);
+        btn.addEventListener('click', function () {
+          var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
           localStorage.setItem('theme', next);
-          setButton(next);
+          applyTheme(next);
         });
       })();
     </script>
