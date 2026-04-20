@@ -1,69 +1,69 @@
 ---
 layout: default
 ---
+<!-- _layouts/about.html -->
 <div class="post">
-  <div class="about-container clearfix" style="display: block; width: 100%;">
-    
+  <div class="about-container clearfix">
+
+    <!-- ── Sidebar ── -->
     {% if page.profile %}
-    <div class="profile-sidebar" style="float: left; width: 30%; min-width: 250px; margin-right: 30px; margin-bottom: 20px; border-right: 1px solid #eee; padding-right: 20px;">
-      
+    <div class="profile-sidebar">
+
       {% if page.profile.image %}
         {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-        <img src="{{ profile_image_path | relative_url }}" 
-             style="width: 100%; height: auto; border-radius: {% if page.profile.image_circular %}50%{% else %}8px{% endif %};" 
-             alt="profile-photo">
+        <img src="{{ profile_image_path | relative_url }}"
+             alt="Profile photo of {{ site.first_name }} {{ site.last_name }}"
+             style="border-radius: {% if page.profile.image_circular %}50%{% else %}4px{% endif %};">
       {% endif %}
 
-      <div class="profile-info" style="margin-top: 20px; font-size: 0.95rem; line-height: 1.6;">
-        
-        <p>
-          <strong>Email:</strong><br>
-          <a href="mailto:{{ page.profile.email }}">b.abdullahi [at] lancaster.ac.uk</a>
-        </p>
+      <div class="profile-info">
 
-        <p>
-          <strong>Links:</strong><br>
-          <a href="{{ page.profile.scholar }}" target="_blank">Google Scholar</a><br>
-          <a href="https://www.linkedin.com/in/{{ page.profile.linkedin }}" target="_blank">LinkedIn</a><br>
-          <a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank">Twitter</a><br>
-          <a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank">ORCID</a>
-        </p>
+        <strong>Email</strong>
+        <a href="mailto:{{ page.profile.email }}">b.abdullahi [at] lancaster.ac.uk</a>
 
-        <!--
-        <p>
-          <strong>Mailing address:</strong><br>
-          Lancaster University Management School<br>
-          Bailrigg, Lancaster<br>
-          LA1 4YX, United Kingdom
-        </p>
-        -->
+        <strong>Links</strong>
+        {% if page.profile.scholar %}
+          <a href="{{ page.profile.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+        {% endif %}
+        {% if page.profile.linkedin %}
+          <a href="https://www.linkedin.com/in/{{ page.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        {% endif %}
+        {% if page.profile.orcid %}
+          <a href="https://orcid.org/{{ page.profile.orcid }}" target="_blank" rel="noopener">ORCID</a>
+        {% endif %}
+        {% if page.profile.twitter %}
+          <a href="https://twitter.com/{{ page.profile.twitter }}" target="_blank" rel="noopener">Twitter / X</a>
+        {% endif %}
+
+        <strong>Affiliation</strong>
+        <a href="https://www.lancaster.ac.uk" target="_blank" rel="noopener"
+           style="color: var(--lu-blue);">Lancaster University</a>
+        <span style="font-size:0.82rem; color: var(--muted); display:block; margin-top:2px;">
+          Department of Economics<br>Lancaster, LA1 4YW, UK
+        </span>
 
       </div>
     </div>
     {% endif %}
 
-    <div class="bio-text" style="display: block; overflow: hidden;">
-       <h2 style="margin-top: 0;">Welcome to my page!</h2> {{ content }}
+    <!-- ── Bio ── -->
+    <div class="bio-text" style="overflow: hidden;">
+      {{ content }}
     </div>
 
-  </div>
-</div>
+  </div><!-- .about-container -->
+</div><!-- .post -->
 
 <style>
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  .clearfix::after { content: ""; clear: both; display: table; }
 
   @media (max-width: 768px) {
     .profile-sidebar {
       float: none !important;
       width: 100% !important;
-      margin: 0 0 20px 0 !important;
+      margin: 0 0 1.5rem 0 !important;
       border-right: none !important;
       padding-right: 0 !important;
-      text-align: center;
     }
   }
 </style>
