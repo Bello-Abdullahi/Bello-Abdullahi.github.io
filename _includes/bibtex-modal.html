@@ -1,0 +1,48 @@
+<!-- BibTeX Popup Modal -->
+<div id="bibtex-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.3); z-index:9999;" onclick="closeBibtexModal(event)">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:white; padding:1.5rem; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15); max-width:500px; width:90%;">
+    <button onclick="document.getElementById('bibtex-modal').style.display='none'" style="position:absolute; top:8px; right:12px; background:none; border:none; font-size:1.5rem; cursor:pointer;">&times;</button>
+    <pre id="bibtex-content" style="white-space:pre-wrap; margin:0; font-family:monospace; font-size:0.8rem;"></pre>
+  </div>
+</div>
+
+<script>
+  (function() {
+    // Wait for DOM to be ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+
+    function init() {
+      const modal = document.getElementById('bibtex-modal');
+      const content = document.getElementById('bibtex-content');
+      
+      document.querySelectorAll('.bibtex-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          const bibtex = this.getAttribute('data-bibtex');
+          if (bibtex) {
+            content.textContent = bibtex;
+            modal.style.display = 'block';
+          }
+        });
+      });
+      
+      // Global function for closing when clicking backdrop
+      window.closeBibtexModal = function(event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        }
+      };
+      
+      // Close with Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.style.display === 'block') {
+          modal.style.display = 'none';
+        }
+      });
+    }
+  })();
+</script>
