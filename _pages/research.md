@@ -86,8 +86,7 @@ nav_order: 3
   <div class="paper-authors">Ed. Prof. Rainer Wehner &amp; Prof. Emin Akçaoğlu — contributed chapter alongside Prof. Harald Bolsinger, Prof. Emanuel Nwosu, Dr. Sindhu Natha, and Jörg Meyer.</div>
   <div class="paper-links">
     <a href="https://opus4.kobv.de/opus4-fhws/frontdoor/deliver/index/docId/5736/file/Wehner_Akcaoglu_Global_Business_Dynamics.pdf" class="paper-link">Published Version</a>
-    <a href="#" class="paper-link">BibTeX</a>
-  <a href="#" class="paper-link bibtex-link" data-bibtex="@article{wehnerglobal,
+    <a href="#" class="paper-link bibtex-link" data-bibtex="@article{wehnerglobal,
   title={Global Business Dynamics, Value Chains, and Cultural Linkages},
   author={Wehner, Rainer and Ak{\c{c}}ao{\u{g}}lu, Emin},
   journal={Global Business Dynamics, Value Chains, and Cultural Linkages},
@@ -101,8 +100,8 @@ nav_order: 3
 <div class="paper-card policy">
   <div class="paper-title">Accelerating Literacy and Numeracy in Crises-Affected
 Communities: Lessons from KNLC Teaching Method in Konduga, Borno State</div>
-  <div class="paper-authors">AFC Policy Brief, 2025</div>
-  <div class="paper-venue policy-venue">Associates for Change</div>
+  <div class="paper-authors">CSEA Policy Brief, 2026</div>
+  <div class="paper-venue policy-venue">Centre for the Study of the Economies of Africa</div>
   <details style="margin-top:10px; font-size:0.88rem; color:#444;">
     <summary style="cursor:pointer; color:var(--lu-green); font-weight:600;">Abstract</summary>
     </details>
