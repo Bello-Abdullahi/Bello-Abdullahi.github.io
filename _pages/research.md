@@ -33,7 +33,7 @@ nav_order: 3
     <p style="margin-top:8px;">This paper investigates the fundamental drivers of food inflation in Nigeria. Using a linear ARDL model we found that oil price shocks exert large positive effects on food prices in the short run but have negligible long-run impact; money supply growth, by contrast, significantly raises food prices in both the short and long run.</p>
   </details>
   <div class="paper-links">
-    <a href="#" class="paper-link">Published Version</a> paper link https://www.gijmss.com.ng/index.php/gijmss/article/view/197/150
+    <a href="https://www.gijmss.com.ng/index.php/gijmss/article/view/197/150" target="_blank" class="paper-link">Published Version</a>
     <a href="#" class="paper-link bibtex-link" data-bibtex="@article{shehu2023inflation,
   author  = {Shehu, El-Rasheed and Abdullahi, B. M. and Mustapha, Abdulateef},
   title   = {Inflation Dynamics and Food Prices in Nigeria},
