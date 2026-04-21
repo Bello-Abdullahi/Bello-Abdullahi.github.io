@@ -34,9 +34,9 @@ I also serve as an EDI representative for the [North West Social Science Doctora
 <ul class="news-list">
   <li>
     <span class="news-date">Apr 2026</span>
-    <span>I am co-organizing the <a href="https://nwssdtp.ac.uk/">North West Social Science Doctoral Training Partnership (NWSSDTP)</a> Annual Student Event on "AI in Academia: Uses, Experiences, and Research" at Lancaster University; <span class="news-tag">Workshop</span></span>
+    <span>I am co-organizing the <a href="https://nwssdtp.ac.uk/">North West Social Science Doctoral Training Partnership (NWSSDTP)</a> Annual Student Event on "AI in Academia: Uses, Experiences, and Research" at Lancaster University&rdquo;  <span class="news-tag">Workshop</span></span>
   </li>
   <li>
     <span class="news-date">Apr 2026</span>
     <span>Paper accepted in <em>Environmental Sciences Europe</em>: &ldquo;Does Private Energy Investment Improve China&rsquo;s Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach&rdquo; <span class="news-tag">Publication</span></span>
-</ul>
+
