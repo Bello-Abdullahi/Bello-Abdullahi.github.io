@@ -34,7 +34,16 @@ nav_order: 3
   </details>
   <div class="paper-links">
     <a href="#" class="paper-link">Published Version</a> paper link https://www.gijmss.com.ng/index.php/gijmss/article/view/197/150
-    <a href="#" class="paper-link">BibTeX</a> Shehu, E.-R., Abdullahi, B. M. ., & Mustapha, A. . (2023). Inflation Dynamics and Food Prices in Nigeria. Gusau International Journal of Management and Social Sciences, 6(3), 237–255. https://doi.org/10.57233/gijmss.v6i3.13
+    <a href="#" class="paper-link bibtex-link" data-bibtex="@article{shehu2023inflation,
+  author  = {Shehu, El-Rasheed and Abdullahi, B. M. and Mustapha, Abdulateef},
+  title   = {Inflation Dynamics and Food Prices in Nigeria},
+  journal = {Gusau International Journal of Management and Social Sciences},
+  volume  = {6},
+  number  = {3},
+  pages   = {237--255},
+  year    = {2023},
+  doi     = {10.57233/gijmss.v6i3.13}
+}">BibTeX</a>
   </div>
 </div>
 
@@ -103,3 +112,5 @@ nav_order: 3
     <a href="#" class="paper-link">Policy Brief (PDF)</a>
   </div>
 </div>
+
+{% include bibtex-modal.html %}
