@@ -7,15 +7,18 @@ nav: true
 nav_order: 3
 ---
 
-<p class="research-group-label">Working Papers &amp; Forthcoming</p>
+<p class="research-group-label">Working Papers </p>
 
 <div class="paper-card forthcoming">
   <div class="paper-title">Does Private Energy Investment Improve China's Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach</div>
   <div class="paper-authors">with Khan, A. K., and Mustafa, N. (2026)</div>
   <div class="paper-venue forthcoming">Environmental Sciences Europe — Accepted (Forthcoming)</div>
+  <details style="margin-top:10px; font-size:0.88rem; color:#444;">
+    <summary style="cursor:pointer; color:var(--lu-blue); font-weight:600;">Abstract</summary>
+  </details>
   <div class="paper-links">
-    <a href="#" class="paper-link">Abstract</a>
     <a href="#" class="paper-link">Pre-print</a>
+    <a href="#" class="paper-link">BibTex</a>
   </div>
 </div>
 
@@ -30,8 +33,8 @@ nav_order: 3
     <p style="margin-top:8px;">This paper investigates the fundamental drivers of food inflation in Nigeria. Using a linear ARDL model we found that oil price shocks exert large positive effects on food prices in the short run but have negligible long-run impact; money supply growth, by contrast, significantly raises food prices in both the short and long run.</p>
   </details>
   <div class="paper-links">
-    <a href="#" class="paper-link">Published Version</a>
-    <a href="#" class="paper-link">BibTeX</a>
+    <a href="#" class="paper-link">Published Version</a> paper link https://www.gijmss.com.ng/index.php/gijmss/article/view/197/150
+    <a href="#" class="paper-link">BibTeX</a> Shehu, E.-R., Abdullahi, B. M. ., & Mustapha, A. . (2023). Inflation Dynamics and Food Prices in Nigeria. Gusau International Journal of Management and Social Sciences, 6(3), 237–255. https://doi.org/10.57233/gijmss.v6i3.13
   </div>
 </div>
 
