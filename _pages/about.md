@@ -34,18 +34,9 @@ I also serve as an EDI representative for the [North West Social Science Doctora
 <ul class="news-list">
   <li>
     <span class="news-date">Apr 2026</span>
+    <span>I am co-organizing the <a href="https://nwssdtp.ac.uk/">North West Social Science Doctoral Training Partnership (NWSSDTP)</a> Annual Student Event on "AI in Academia: Uses, Experiences, and Research" at Lancaster University; <span class="news-tag">Workshop</span></span>
+  </li>
+  <li>
+    <span class="news-date">Apr 2026</span>
     <span>Paper accepted in <em>Environmental Sciences Europe</em>: &ldquo;Does Private Energy Investment Improve China&rsquo;s Resource-Adjusted Socio-Ecological Development? Evidence from a Dynamic ARDL Approach&rdquo; <span class="news-tag">Publication</span></span>
-  </li>
-  <li>
-    <span class="news-date">Dec 2024</span>
-    <span>Presented a paper at the 8th International Conference of Economics and Finance in Turkey. <span class="news-tag blue">Conference</span></span>
-  </li>
-  <li>
-    <span class="news-date">Sep 2024</span>
-    <span>Presented a paper at the 65th Annual Conference of the Nigerian Economic Society in Abuja. <span class="news-tag blue">Conference</span></span>
-  </li>
-  <li>
-    <span class="news-date">Sep 2024</span>
-    <span>Awarded the PTDF Overseas Scholarship to pursue an MSc in Applied Economics at the University of Strathclyde. <span class="news-tag" style="background:var(--lu-green);">Award</span></span>
-  </li>
 </ul>
