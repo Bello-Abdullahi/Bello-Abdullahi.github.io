@@ -16,7 +16,7 @@ This page collects resources I have found useful and believe others may benefit 
 2. [**Ph.D. Research & Writing Workshop**](https://sites.nd.edu/esims/courses/research-writing-workshop-spring-2023/)  
    A PhD course by Eric Sims at the University of Notre Dame. It covers research, economics writing, the publication process, the job market, and mental health and wellbeing. The slides are also available online.
 
-3. [[**EconGradAdvice**]](https://sites.google.com/view/econgradadvice/)
+3. [**EconGradAdvice**](https://sites.google.com/view/econgradadvice/)
   A collection of advice and resources for economics graduate students and prospective PhD applicants
 
 4. [**Guide to Economics Lecture Notes**](https://github.com/Alalalalaki/Guide2EconNotes)
