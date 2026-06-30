@@ -27,7 +27,7 @@ This page collects resources I have found useful and believe others may benefit 
 1. [**QuantEcon Lectures**](https://quantecon.org/lectures/)  
    Open lectures on Python, quantitative economics, and computational methods.
 
-2. [**Guide to Efficient RA Computational Work in Economics**]      (https://github.com/Alalalalaki/Guide2EconRA)  
+2. [**Guide to Efficient RA Computational Work in Economics**](https://github.com/Alalalalaki/Guide2EconRA)  
    A practical guide for working on empirical or computational economics.
 
 3. [**Python Programming for Economics and Finance**](https://python-programming.quantecon.org/)  
