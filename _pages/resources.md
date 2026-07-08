@@ -17,10 +17,10 @@ This page collects resources I have found useful and believe others may benefit 
    A PhD course by Eric Sims at the University of Notre Dame. It covers research, economics writing, the publication process, the job market, and mental health and wellbeing. The slides are also available online.
 
 3. [**EconGradAdvice**](https://sites.google.com/view/econgradadvice/)
-  A collection of advice and resources for economics graduate students and prospective PhD applicants
+   A collection of advice and resources for economics graduate students and prospective PhD applicants
 
 4. [**Guide to Economics Lecture Notes**](https://github.com/Alalalalaki/Guide2EconNotes)
- A curated list of publicly available economics lecture notes by Koyomi Akaguro
+   A curated list of publicly available economics lecture notes by Koyomi Akaguro
 
 ## Programming, Computational Economics, and Reproducibility
 
@@ -35,6 +35,9 @@ This page collects resources I have found useful and believe others may benefit 
 
 4. [**The Turing Way: Guide for Reproducible Research**](https://book.the-turing-way.org/reproducible-research/reproducible-research/)  
    A practical guide to reproducible, ethical, and collaborative data science.
+
+5. [**Development Research in Practice The DIME Analytics Data Handbook**](https://worldbank.github.io/dime-data-handbook/)
+   
 
 ## Macroeconomics, DSGE, and VAR Resources
 
