@@ -37,6 +37,9 @@ This page collects resources I have found useful and believe others may benefit 
    A practical guide to reproducible, ethical, and collaborative data science.
 
 5. [**Development Research in Practice The DIME Analytics Data Handbook**](https://worldbank.github.io/dime-data-handbook/)
+
+6. [**Berkeley Initiative for Transparency in the Social Sciences**](https://www.bitss.org/resource-library/)
+   A Resource Library that contains resources for learning, teaching, and practicing research transparency and reproducibility, including curricula, slide decks, books, guidelines, templates, software, and other tools
    
 
 ## Macroeconomics, DSGE, and VAR Resources
