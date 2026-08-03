@@ -6,9 +6,9 @@ nav: false
 nav_order: 4
 ---
 
-While working as a Research Assistant at the [Centre for the Study of the Economies of Africa](https://www.cseaafrica.org/), I produced monthly macroeconomic snapshots tracking developments in the Nigerian economy. This involved developing a data collection pipeline to monitor new data releases, clean and update data from official sources, interpret movements in key economic indicators, and provide concise commentary alongside charts.
+While working as a Research Assistant at the [Centre for the Study of the Economies of Africa](https://www.cseaafrica.org/), I produced monthly macroeconomic snapshots tracking developments in the Nigerian economy. This involved developing a data collection pipeline to monitor new data releases, cleaning and updating the data from official sources, interpreting movements in key economic indicators, and providing concise commentaries.
 
-The data sources included the Central Bank of Nigeria, National Bureau of Statistics, Debt Management Office, Nigerian Exchange, World Bank Development Indicators, IMF data portals and other official databases.
+The data sources included the Central Bank of Nigeria, National Bureau of Statistics, Debt Management Office, World Bank Development Indicators, IMF data portals and other official databases.
 
 The snapshots covered inflation, output, interest rates, monetary aggregates, exchange rates, public debt, government revenue, foreign reserves, labour-market indicators, capital flows and financial markets.
 
