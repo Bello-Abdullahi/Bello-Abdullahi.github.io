@@ -21,7 +21,9 @@ selected_papers: false
 social: false
 ---
 ## About Me
-I am a PhD Economics Student at [Lancaster University](https://www.lancaster.ac.uk) under the supervision of [Prof. Lorenza Rossi](https://sites.google.com/view/lorenza-rossi/home-page) and [Dr. Stefano Fasani](https://sites.google.com/view/stefano-fasani). I obtained my MSc in Applied Economics from the University of Strathclyde. Previously, I worked as a Research Assistant (Economist) at the [Centre for the Study of the Economies of Africa (CSEA)](https://www.cseaafrica.org/), where I contributed to policy-oriented development research in Africa.
+I am a PhD Economics Student at [Lancaster University](https://www.lancaster.ac.uk) supervised by [Prof. Lorenza Rossi](https://sites.google.com/view/lorenza-rossi/home-page) and [Dr. Stefano Fasani](https://sites.google.com/view/stefano-fasani). I obtained my MSc in Applied Economics from the University of Strathclyde. 
+
+Before starting my PhD, I worked as a Research Assistant (Economist) at the [Centre for the Study of the Economies of Africa (CSEA)](https://www.cseaafrica.org/). <!-- (where I contributed to policy-oriented development research in Africa.) --> My work covered macroeconomic monitoring and policy-oriented development research, including the production of CSEA’s monthly Nigeria Macroeconomic Snapshot, policy briefs, research reports and presentations. Selected examples of my macroeconomic monitoring work are available [here](/macroeconomic-monitoring/).
 
 I also serve as an EDI representative for the [North West Social Science Doctoral Training Partnership](https://nwssdtp.ac.uk/current-students/student-representatives/). In my free time, I mentor graduate students from Africa who are interested in pursuing higher education opportunities. If you are an African student considering graduate school and need guidance, shoot me an email [here](mailto:belloabdullahimuhammad1@gmail.com).
 
